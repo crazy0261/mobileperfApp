@@ -1,0 +1,642 @@
+device serialnum:31669785680018L
+device model:vivo V2162A
+test package:com.yiyitech.powerex
+system version:11
+test package ver:Activity Resolver Table:
+  Schemes:
+      jdpauth:
+        3d93393 com.yiyitech.powerex/com.jdpaysdk.miniProgram.AuthorActivity filter 7e3efd0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "jdpauth"
+      geelytech:
+        bc74e09 com.yiyitech.powerex/.flutter.business.account.AccountPasswordFlutterFragmentActivity filter 199280e
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /loginpassword/setting}"
+        13e822f com.yiyitech.powerex/.flutter.business.order.PriceBackFlutterFragmentActivity filter 2a1f03c
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /prod-order/priceback}"
+        8dc1c5 com.yiyitech.powerex/.biz.wallet.WalletActivity filter c3b71a
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /WalletHome}"
+        d3b124b com.yiyitech.powerex/.biz.order.OrderTransferActivity filter 2bbd428
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /order/transfer}"
+        38db541 com.yiyitech.powerex/.biz.pay.CalculatePriceActivity filter 1d62ae6
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /priceType}"
+        d268827 com.yiyitech.powerex/.biz.combo.ComboActivity filter c0e0ad4
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /PackageCardHome}"
+        d3f647d com.yiyitech.powerex/.biz.hometab.HomePageActivity filter a4a0f72
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /home/HomeActivity}"
+        6697fc3 com.yiyitech.powerex/.biz.coupon.detail.UseCouponDetailActivity filter 3ab0040
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /CouponExpireDetail}"
+        b62cb79 com.yiyitech.powerex/.biz.service.ServiceActivity filter ba5b0be
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /Content}"
+        25a551f com.yiyitech.powerex/.biz.combo.SuperComboDetailActivity filter b5fe06c
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /SuperComboDetail}"
+        dbba635 com.yiyitech.powerex/.biz.order.RefundDetailActivity filter 7881aca
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /order/refundprogress}"
+        f59243b com.yiyitech.powerex/.common.web.WebActivity filter 2a09758
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /web}"
+        28d70b1 com.yiyitech.powerex/.biz.carintonet.PDFPreviewActivity filter 8751996
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /pdf}"
+        a19dfb3 com.yiyitech.powerex/com.yiyitech.module.mine.page.setting.CalculatePriceActivity filter 69ef970
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /priceType}"
+        e5084e9 com.yiyitech.powerex/com.yiyitech.module.mine.flutter.account.AccountPasswordFlutterFragmentActivity filter 5fdc56e
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /loginpassword/setting}"
+        48c40f com.yiyitech.powerex/com.yiyitech.module.mine.page.setting.WalletActivity filter d523c9c
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /WalletHome}"
+        72386a5 com.yiyitech.powerex/com.yiyitech.module.order.page.OrderDetailActivityYiYi filter 5c4ca7a
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /order/orderDetail}"
+        ed7922b com.yiyitech.powerex/com.yiyitech.module.carnet.page.CarRentActivity filter 8948688
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /schemeSelect}"
+        d6ae821 com.yiyitech.powerex/com.yiyitech.module.carnet.page.PDFPreviewActivity filter 3c51446
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /pdf}"
+        b3b2607 com.yiyitech.powerex/com.yiyitech.module.carnet.page.RentAndDepositeActivity filter e2f8334
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /firstMonthNetPay}"
+        26ce55d com.yiyitech.powerex/com.yiyitech.module.carnet.page.MyCarListActivity filter 92e2ed2
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /distribute}"
+        26ce55d com.yiyitech.powerex/com.yiyitech.module.carnet.page.MyCarListActivity filter 35a1ba3
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /unbindVehicle}"
+        26ce55d com.yiyitech.powerex/com.yiyitech.module.carnet.page.MyCarListActivity filter 4db9ea0
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /operateTypeDesignate}"
+        26ce55d com.yiyitech.powerex/com.yiyitech.module.carnet.page.MyCarListActivity filter b977a59
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /operateTypeCancel}"
+        9c661e com.yiyitech.powerex/com.yiyitech.module.carnet.page.BatterySolutionActivity filter 2e8ceff
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /RentOrderDetail}"
+        9c661e com.yiyitech.powerex/com.yiyitech.module.carnet.page.BatterySolutionActivity filter 46c04cc
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /contractOrderDetails}"
+        d3c6315 com.yiyitech.powerex/com.yiyitech.module.webview.web.WebActivity filter 24c62a
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /web}"
+        2855c1b com.yiyitech.powerex/com.yiyitech.module.webview.web.PdfWebviewActivity filter cbaa1b8
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /pdf}"
+        50d1b91 com.yiyitech.powerex/com.yiyitech.module.webview.web.PermissionWebActivity filter 8211af6
+          Action: "android.intent.action.VIEW"
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /permission}"
+        c939ef7 com.yiyitech.powerex/com.yiyitech.module.combo.page.MyComboDetailActivity filter f542164
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /ComboDetail}"
+        56dfcd com.yiyitech.powerex/com.yiyitech.module.shiftchange.page.ShiftchangeDetailActivity filter 2bbf082
+          Action: "router"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /order/shiftsOrderDetail}"
+      saa44bf93f:
+        ed766ed com.yiyitech.powerex/com.sensorsdata.analytics.android.sdk.dialog.SchemeActivity filter b613922
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "saa44bf93f"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7abc917 com.yiyitech.powerex/.common.agreement.AgreementActivity filter a33d104
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        7abc917 com.yiyitech.powerex/.common.agreement.AgreementActivity filter a33d104
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        9feabc9 com.yiyitech.powerex/com.taobao.accs.EventReceiver filter 7d975ef
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+        5f5e8e8 com.yiyitech.powerex/com.taobao.agoo.AgooCommondReceiver filter 6a42da6
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        a6b03fb com.yiyitech.powerex/org.android.agoo.xiaomi.MiPushBroadcastReceiver filter 4fbb671
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      com.xiaomi.mipush.ERROR:
+        a6b03fb com.yiyitech.powerex/org.android.agoo.xiaomi.MiPushBroadcastReceiver filter d294c56
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        4ac563d com.yiyitech.powerex/org.android.agoo.huawei.HuaweiPushReceiver filter fd57e32
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+      com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP:
+        e3433e7 com.yiyitech.powerex/.AppRegister filter fb4ab94
+          Action: "com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        9feabc9 com.yiyitech.powerex/com.taobao.accs.EventReceiver filter 3c92ce
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        279b8df com.yiyitech.powerex/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter fa1d92c
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.android.push.intent.RECEIVE:
+        4ac563d com.yiyitech.powerex/org.android.agoo.huawei.HuaweiPushReceiver filter fd57e32
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+      com.vivo.pushclient.action.RECEIVE:
+        d1939 com.yiyitech.powerex/org.android.agoo.vivo.PushMessageReceiverImpl filter e594b7e
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.meizu.cloud.pushservice.action.PUSH_SERVICE_START:
+        7062783 com.yiyitech.powerex/com.meizu.cloud.pushsdk.SystemReceiver filter ffaed00
+          Action: "com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.USER_PRESENT:
+        9feabc9 com.yiyitech.powerex/com.taobao.accs.EventReceiver filter f6038fc
+          Action: "android.intent.action.USER_PRESENT"
+      com.taobao.accs.intent.action.START_FROM_AGOO:
+        c3d3b85 com.yiyitech.powerex/com.taobao.accs.ServiceReceiver filter 2f1820b
+          Action: "com.taobao.accs.intent.action.START_FROM_AGOO"
+      com.xiaomi.push.PING_TIMER:
+        c1d0ff5 com.yiyitech.powerex/com.xiaomi.push.service.receivers.PingReceiver filter fbaa18a
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        a6b03fb com.yiyitech.powerex/org.android.agoo.xiaomi.MiPushBroadcastReceiver filter 9e95c18
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.huawei.android.push.intent.CLICK:
+        4ac563d com.yiyitech.powerex/org.android.agoo.huawei.HuaweiPushReceiver filter fd57e32
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+      com.taobao.accs.intent.action.COMMAND:
+        c3d3b85 com.yiyitech.powerex/com.taobao.accs.ServiceReceiver filter c130dda
+          Action: "com.taobao.accs.intent.action.COMMAND"
+      com.huawei.intent.action.PUSH_STATE:
+        4ac563d com.yiyitech.powerex/org.android.agoo.huawei.HuaweiPushReceiver filter fd57e32
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+      com.yiyitech.powerex.intent.action.COMMAND:
+        5f5e8e8 com.yiyitech.powerex/com.taobao.agoo.AgooCommondReceiver filter 21b0b01
+          Action: "com.yiyitech.powerex.intent.action.COMMAND"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.taobao.accs.intent.action.SERVICE:
+        5be4d7 com.yiyitech.powerex/com.taobao.accs.ChannelService filter c2421c4
+          Action: "com.taobao.accs.intent.action.SERVICE"
+      com.umeng.messge.registercallback.action:
+        cf7fb48 com.yiyitech.powerex/com.umeng.message.UmengMessageCallbackHandlerService filter 5d61de1 permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.messge.registercallback.action"
+      org.agoo.android.intent.action.RECEIVE:
+        4239630 com.yiyitech.powerex/com.umeng.message.XiaomiIntentService filter 409c2a9
+          Action: "org.agoo.android.intent.action.RECEIVE"
+        963e55c com.yiyitech.powerex/com.umeng.message.UmengIntentService filter 92e065
+          Action: "org.agoo.android.intent.action.RECEIVE"
+      com.umeng.message.message.handler.action:
+        cf7fb48 com.yiyitech.powerex/com.umeng.message.UmengMessageCallbackHandlerService filter c3583f4 permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.message.message.handler.action"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        220eb60 com.yiyitech.powerex/com.heytap.mcssdk.AppPushService filter bfba819 permission com.heytap.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.umeng.message.message.sendmessage.action:
+        cf7fb48 com.yiyitech.powerex/com.umeng.message.UmengMessageCallbackHandlerService filter 3b5b71d permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.message.message.sendmessage.action"
+      org.android.agoo.client.MessageReceiverService:
+        206813a com.yiyitech.powerex/com.umeng.message.UmengMessageIntentReceiverService filter 500e1eb
+          Action: "org.android.agoo.client.MessageReceiverService"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        f97fd92 com.yiyitech.powerex/com.heytap.mcssdk.PushService filter 3e5a363 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.umeng.message.disablecallback.action:
+        cf7fb48 com.yiyitech.powerex/com.umeng.message.UmengMessageCallbackHandlerService filter 109b1c7 permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.message.disablecallback.action"
+      com.taobao.accs.intent.action.ELECTION:
+        5be4d7 com.yiyitech.powerex/com.taobao.accs.ChannelService filter f4448ad
+          Action: "com.taobao.accs.intent.action.ELECTION"
+      com.umeng.message.enablecallback.action:
+        cf7fb48 com.yiyitech.powerex/com.umeng.message.UmengMessageCallbackHandlerService filter 64b7706 permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.message.enablecallback.action"
+      com.taobao.accs.intent.action.RECEIVE:
+        105d7e2 com.yiyitech.powerex/com.taobao.accs.data.MsgDistributeService filter 20ff773
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+        92d902e com.yiyitech.powerex/org.android.agoo.accs.AgooService filter be897cf
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+
+Preferred Activities User 0:
+  Schemes:
+      geelytech:
+        ca79190 com.yiyitech.powerex/com.yiyitech.module.webview.web.PdfWebviewActivity
+         mMatch=0x500000 mAlways=false
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "geelytech"
+          Authority: "geelypower.com": -1
+          Path: "PatternMatcher{LITERAL: /pdf}"
+
+Permissions:
+  Permission [com.yiyitech.powerex.permission.MIPUSH_RECEIVE] (3b460de):
+    sourcePackage=com.yiyitech.powerex
+    uid=10382 gids=null type=0 prot=signature|privileged
+    perm=Permission{cd9010 com.yiyitech.powerex.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.yiyitech.powerex.push.permission.MESSAGE] (30512bf):
+    sourcePackage=com.yiyitech.powerex
+    uid=10382 gids=null type=0 prot=signature
+    perm=Permission{5cb6709 com.yiyitech.powerex.push.permission.MESSAGE}
+
+Permissions:
+  Permission [com.yiyitech.powerex.permission.C2D_MESSAGE] (3995d8c):
+    sourcePackage=com.yiyitech.powerex
+    uid=10382 gids=null type=0 prot=signature
+    perm=Permission{af5cd0e com.yiyitech.powerex.permission.C2D_MESSAGE}
+
+Registered ContentProviders:
+  com.yiyitech.powerex/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider:
+    Provider{5f6c32f com.yiyitech.powerex/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+  com.yiyitech.powerex/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{ee39d3c com.yiyitech.powerex/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.yiyitech.powerex/com.luck.picture.lib.PictureFileProvider:
+    Provider{93a6ac5 com.yiyitech.powerex/com.luck.picture.lib.PictureFileProvider}
+  com.yiyitech.powerex/androidx.core.content.FileProvider:
+    Provider{3c5ac1a com.yiyitech.powerex/androidx.core.content.FileProvider}
+  com.yiyitech.powerex/com.yiyitech.lib.util.LibraryUtil:
+    Provider{bb6634b com.yiyitech.powerex/com.yiyitech.lib.util.LibraryUtil}
+  com.yiyitech.powerex/com.yiyitech.lib.picture.selector.basic.PictureFileProvider:
+    Provider{5eb5128 com.yiyitech.powerex/com.yiyitech.lib.picture.selector.basic.PictureFileProvider}
+  com.yiyitech.powerex/com.umeng.message.provider.MessageProvider:
+    Provider{4dbee41 com.yiyitech.powerex/com.umeng.message.provider.MessageProvider}
+
+ContentProvider Authorities:
+  [com.yiyitech.powerex.umeng.message]:
+    Provider{4dbee41 com.yiyitech.powerex/com.umeng.message.provider.MessageProvider}
+      applicationInfo=ApplicationInfo{b826fe6 com.yiyitech.powerex}
+  [com.yiyitech.powerex.fileProvider]:
+    Provider{3c5ac1a com.yiyitech.powerex/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{685e927 com.yiyitech.powerex}
+  [com.yiyitech.powerex.luckProvider]:
+    Provider{5eb5128 com.yiyitech.powerex/com.yiyitech.lib.picture.selector.basic.PictureFileProvider}
+      applicationInfo=ApplicationInfo{f3857d4 com.yiyitech.powerex}
+  [com.yiyitech.powerex.lifecycle-process]:
+    Provider{ee39d3c com.yiyitech.powerex/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{7b82d7d com.yiyitech.powerex}
+  [com.yiyitech.powerex.provider]:
+    Provider{93a6ac5 com.yiyitech.powerex/com.luck.picture.lib.PictureFileProvider}
+      applicationInfo=ApplicationInfo{2f5a472 com.yiyitech.powerex}
+  [com.yiyitech.powerex.SensorsDataContentProvider]:
+    Provider{5f6c32f com.yiyitech.powerex/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+      applicationInfo=ApplicationInfo{cddf0c3 com.yiyitech.powerex}
+  [com.yiyitech.powerex.LibraryUtil]:
+    Provider{bb6634b com.yiyitech.powerex/com.yiyitech.lib.util.LibraryUtil}
+      applicationInfo=ApplicationInfo{3ad1d40 com.yiyitech.powerex}
+
+Key Set Manager:
+  [com.yiyitech.powerex]
+      Signing KeySets: 153
+
+Packages:
+  Package [com.yiyitech.powerex] (f1f2479):
+    userId=10382
+    pkg=Package{93cb310 com.yiyitech.powerex}
+    codePath=/data/app/~~rwM6YKOPDKKQWaKyBb6pBQ==/com.yiyitech.powerex-R9h62jjEi9rw6daNyDRHCQ==
+    resourcePath=/data/app/~~rwM6YKOPDKKQWaKyBb6pBQ==/com.yiyitech.powerex-R9h62jjEi9rw6daNyDRHCQ==
+    legacyNativeLibraryDir=/data/app/~~rwM6YKOPDKKQWaKyBb6pBQ==/com.yiyitech.powerex-R9h62jjEi9rw6daNyDRHCQ==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=59 minSdk=21 targetSdk=29
+    versionName=3.3.0
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{93cb310 com.yiyitech.powerex}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.yiyitech.powerex
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      org.simalliance.openmobileapi
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.simalliance.openmobileapi.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-04-17 23:11:09
+    firstInstallTime=2023-04-17 23:11:10
+    lastUpdateTime=2023-04-17 23:11:10
+    installerPackageName=com.bbk.appstore
+    signatures=PackageSignatures{bf595be version:3, signatures:[74574cf6], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    declared permissions:
+      com.yiyitech.powerex.push.permission.MESSAGE: prot=signature, INSTALLED
+      com.yiyitech.powerex.permission.C2D_MESSAGE: prot=signature, INSTALLED
+      com.yiyitech.powerex.permission.MIPUSH_RECEIVE: prot=signature|privileged, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.WAKE_LOCK
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.USE_FINGERPRINT
+      android.permission.USE_BIOMETRIC
+      android.permission.READ_LOGS
+      android.permission.NFC
+      org.simalliance.openmobileapi.SMARTCARD
+      android.permission.FLASHLIGHT
+      android.permission.BROADCAST_PACKAGE_ADDED
+      android.permission.BROADCAST_PACKAGE_CHANGED
+      android.permission.BROADCAST_PACKAGE_INSTALL
+      android.permission.BROADCAST_PACKAGE_REPLACED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      com.meizu.flyme.push.permission.RECEIVE
+      com.yiyitech.powerex.push.permission.MESSAGE
+      com.meizu.c2dm.permission.RECEIVE
+      com.yiyitech.powerex.permission.C2D_MESSAGE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.vivo.notification.permission.BADGE_ICON
+      android.permission.GET_TASKS
+      com.yiyitech.powerex.permission.MIPUSH_RECEIVE
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_MEDIA_STORAGE
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.BLUETOOTH
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.FOREGROUND_SERVICE
+    install permissions:
+      com.yiyitech.powerex.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.NFC: granted=true
+      com.yiyitech.powerex.push.permission.MESSAGE: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.vivo.notification.permission.BADGE_ICON: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      com.yiyitech.powerex.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=167492 installed=true hidden=false vHidden=1 suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      lastDisabledCaller: com.bbk.appstore
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+      enabledComponents:
+        com.taobao.accs.ChannelService
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.vivo.upnpserver:
+      com.yiyitech.powerex
+    com.vivo.space:
+      com.yiyitech.powerex
+    com.autonavi.minimap:
+      com.yiyitech.powerex
+    com.jingdong.app.mall:
+      com.yiyitech.powerex
+    com.sina.weibo:
+      com.yiyitech.powerex
+    com.ss.android.article.news:
+      com.yiyitech.powerex
+    com.ximalaya.ting.android:
+      com.yiyitech.powerex
+    com.xingin.xhs:
+      com.yiyitech.powerex
+    com.zhihu.android:
+      com.yiyitech.powerex
+    com.xunmeng.pinduoduo:
+      com.yiyitech.powerex
+    com.tencent.mm:
+      com.yiyitech.powerex
+  queryable via interaction:
+    User 0:
+      [com.vivo.smartmultiwindow,com.vivo.nightpearl,com.vivo.fingerprintengineer,com.vivo.networkstate,com.bbk.SuperPowerSave,com.vivo.multinlp,com.vivo.daemonService,com.vivo.voicewakeup,com.android.dynsystem,com.android.providers.settings,com.vivo.setupwizard,com.android.dreams.alwaysondisplay,com.vivo.vdfs,com.vivo.vtouch,com.vivo.gamecube,com.vivo.gamewatch,com.android.inputdevices,android,com.android.wallpaperbackup,com.mediatek.atci.service,com.mobile.cos.iroaming,com.iqoo.powersaving,com.vivo.floatingball,com.vivo.smartshot,com.vivo.vivokaraoke,com.vivo.vms,com.vivo.faceui,com.vivo.audiofx,com.iqoo.aftersale.engineermode,com.android.location.fused,com.vivo.contentcatcher,com.vivo.vibrator4d,com.vivo.fingerprintui,com.mediatek.location.lppe.main,com.vivo.minscreen,com.bbk.facewake,com.android.settings,com.vivo.fingerprint,com.mediatek.voicecommand,com.vivo.fuelsummary,com.android.localtransport,com.vivo.smartunlock,com.vivo.faceunlock,com.vivo.abe,com.mediatek,com.wapi.wapicertmanager,com.iqoo.user.engineermode,com.android.bbklog,com.vivo.epm,com.android.server.telecom,com.vivo.permissionmanager,com.android.networkstack.inprocess,com.vivo.wifiengineermode,com.android.keychain,com.android.BBKCrontab,com.vivo.appfilter,com.vivo.sps,com.vivo.globalanimation,com.android.networkstack.tethering.inprocess,com.vivo.upslide,com.vivo.doubleinstance,com.vivo.aiengine,com.vivo.assistant,com.vivo.fuzzylocationmanager,com.vivo.bsptest,com.vivo.car.networking,com.vivo.pem,com.vivo.connbase]:
+        com.yiyitech.powerex
+      com.android.permissioncontroller:
+        com.yiyitech.powerex
+      com.sohu.inputmethod.sogou.vivo:
+        com.yiyitech.powerex
+      com.vivo.pushservice:
+        com.yiyitech.powerex
+      [com.google.android.gsf,com.google.android.gms]:
+        com.yiyitech.powerex
+      com.yiyitech.powerex:
+        [com.vivo.smartmultiwindow,com.vivo.nightpearl,com.vivo.fingerprintengineer,com.vivo.networkstate,com.bbk.SuperPowerSave,com.vivo.multinlp,com.vivo.daemonService,com.vivo.voicewakeup,com.android.dynsystem,com.android.providers.settings,com.vivo.setupwizard,com.android.dreams.alwaysondisplay,com.vivo.vdfs,com.vivo.vtouch,com.vivo.gamecube,com.vivo.gamewatch,com.android.inputdevices,android,com.android.wallpaperbackup,com.mediatek.atci.service,com.mobile.cos.iroaming,com.iqoo.powersaving,com.vivo.floatingball,com.vivo.smartshot,com.vivo.vivokaraoke,com.vivo.vms,com.vivo.faceui,com.vivo.audiofx,com.iqoo.aftersale.engineermode,com.android.location.fused,com.vivo.contentcatcher,com.vivo.vibrator4d,com.vivo.fingerprintui,com.mediatek.location.lppe.main,com.vivo.minscreen,com.bbk.facewake,com.android.settings,com.vivo.fingerprint,com.mediatek.voicecommand,com.vivo.fuelsummary,com.android.localtransport,com.vivo.smartunlock,com.vivo.faceunlock,com.vivo.abe,com.mediatek,com.wapi.wapicertmanager,com.iqoo.user.engineermode,com.android.bbklog,com.vivo.epm,com.android.server.telecom,com.vivo.permissionmanager,com.android.networkstack.inprocess,com.vivo.wifiengineermode,com.android.keychain,com.android.BBKCrontab,com.vivo.appfilter,com.vivo.sps,com.vivo.globalanimation,com.android.networkstack.tethering.inprocess,com.vivo.upslide,com.vivo.doubleinstance,com.vivo.aiengine,com.vivo.assistant,com.vivo.fuzzylocationmanager,com.vivo.bsptest,com.vivo.car.networking,com.vivo.pem,com.vivo.connbase]
+        com.vivo.pushservice
+
+Package Changes:
+  Sequence number=24
+  User 0:
+    seq=7, package=com.google.android.gms
+    seq=8, package=com.yiyitech.powerExchangeEamApp
+    seq=11, package=com.eg.android.AlipayGphone
+    seq=12, package=com.vivo.globalsearch
+    seq=13, package=com.tencent.mtt
+    seq=14, package=com.ximalaya.ting.android
+    seq=15, package=com.vivo.sosappwidget
+    seq=17, package=com.android.shell
+    seq=21, package=com.nio.pe.niopower
+    seq=22, package=com.android.settings
+    seq=23, package=com.yiyitech.powerex
+
+
+Dexopt state:
+  [com.yiyitech.powerex]
+    path: /data/app/~~rwM6YKOPDKKQWaKyBb6pBQ==/com.yiyitech.powerex-R9h62jjEi9rw6daNyDRHCQ==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.yiyitech.powerex]
+     base.apk - 378
+test cost time::0.18h

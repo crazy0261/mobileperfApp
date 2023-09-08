@@ -1,0 +1,1314 @@
+2023-04-17 23-20-35 dumpsys meminfo package info:
+No process found for: com.nio.pe.niopower
+
+2023-04-17 23-21-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5029078 Realtime: 31285933
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   149900   149744        0     7020   150788   181600   175203     6396
+  Dalvik Heap    35094    35036        0       51    35640    51458    26882    24576
+ Dalvik Other    11252     9580        0       60    13420                           
+        Stack     6016     6016        0      556     6024                           
+       Ashmem      682      668        0        0      712                           
+    Other dev       65        0       64        0      500                           
+     .so mmap    52513     3188    46920      103   110924                           
+    .jar mmap      795        0        0        0    37964                           
+    .apk mmap    18950        0    12252      192    49428                           
+    .ttf mmap     4068        0      700        0    16388                           
+    .dex mmap    60236        4    57664       24    63180                           
+    .oat mmap      251        0        0        0    16228                           
+    .art mmap     3269     2712        0       69    13836                           
+   Other mmap     2238       40     1908        0     5444                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    38560    38560        0        0    38560                           
+      Unknown     9280     9260        0      268     9668                           
+        TOTAL   438814   292110   119508     8343   438814   233058   202085    30972
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    37748                          49476
+         Native Heap:   149744                         150788
+                Code:   120736                         297536
+               Stack:     6016                           6024
+            Graphics:    75862                          75862
+       Private Other:    21512
+              System:    27196
+             Unknown:                                   26320
+ 
+           TOTAL PSS:   438814            TOTAL RSS:   606006       TOTAL SWAP PSS:     8343
+ 
+ Objects
+               Views:     1701         ViewRootImpl:        1
+         AppContexts:        5           Activities:        1
+              Assets:       12        AssetManagers:        0
+       Local Binders:       78        Proxy Binders:       54
+       Parcel memory:       41         Parcel count:      169
+    Death Recipients:        6      OpenSSL Sockets:        6
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1878
+  PAGECACHE_OVERFLOW:      379          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/15/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       44            109       47/52/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/19/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       44            109       47/52/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       110/19/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       76             66        28/71/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       76             60        36/18/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             33         1/16/2  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       44            109       51/58/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-21-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5059080 Realtime: 31315935
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   146036   145880        0    17600   146924   188368   181258     7109
+  Dalvik Heap    33238    33160        0       12    33820    52079    27503    24576
+ Dalvik Other    10050     8300        0       56    12296                           
+        Stack     5412     5412        0     1104     5420                           
+       Ashmem      682      668        0        0      712                           
+    Other dev       65        0       64        0      500                           
+     .so mmap    52057     2724    46920      567   110588                           
+    .jar mmap      835        0        0        0    38284                           
+    .apk mmap    18965        0    12252      192    49556                           
+    .ttf mmap     4093        0      700        0    16516                           
+    .dex mmap    60300        4    57728       24    63244                           
+    .oat mmap      256        0        0        0    16388                           
+    .art mmap     4407     3672       36       66    15212                           
+   Other mmap     2238       40     1908        0     5444                           
+   EGL mtrack    36784    36784        0        0    36784                           
+    GL mtrack    42888    42888        0        0    42888                           
+      Unknown     2628     2608        0     6920     3016                           
+        TOTAL   447475   282140   119608    26541   447475   240447   208761    31685
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    36868                          49032
+         Native Heap:   145880                         146924
+                Code:   120328                         298148
+               Stack:     5412                           5420
+            Graphics:    79672                          79672
+       Private Other:    13588
+              System:    45727
+             Unknown:                                   18396
+ 
+           TOTAL PSS:   447475            TOTAL RSS:   597592       TOTAL SWAP PSS:    26541
+ 
+ Objects
+               Views:     1745         ViewRootImpl:        2
+         AppContexts:        7           Activities:        2
+              Assets:       12        AssetManagers:        0
+       Local Binders:       82        Proxy Binders:       57
+       Parcel memory:       43         Parcel count:      172
+    Death Recipients:        5      OpenSSL Sockets:        7
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1825
+  PAGECACHE_OVERFLOW:      324          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/18/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       44            109       63/63/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/22/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       44            109       63/63/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       144/22/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             77        31/79/6  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60        44/21/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/21/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       44            109       67/73/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-22-06 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5089082 Realtime: 31345936
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   183785   183640        0    73473   184644   292920   282425    10494
+  Dalvik Heap    33038    32960        0      196    33608    55313    30737    24576
+ Dalvik Other    11248     8784        0       44    14208                           
+        Stack     3776     3776        0     2824     3784                           
+       Ashmem      702      668        0        0      752                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51295     1660    46920     1675   111080                           
+    .jar mmap      879        0        0        0    38772                           
+    .apk mmap    28172       64    21356      128    59900                           
+    .ttf mmap     4307        0      700        0    17220                           
+    .dex mmap    61058       12    58472       16    64012                           
+    .oat mmap      265        0        0        0    16452                           
+    .art mmap     4589     3856       36       72    15328                           
+   Other mmap     2521       40     2188        0     5852                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack   126152   126152        0        0   126152                           
+      Unknown      912      892        0     8644     1292                           
+        TOTAL   637138   399806   129736    87072   637138   348233   313162    35070
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    36852                          48936
+         Native Heap:   183640                         184644
+                Code:   129184                         312436
+               Stack:     3776                           3784
+            Graphics:   163454                         163454
+       Private Other:    12636
+              System:   107596
+             Unknown:                                   17612
+ 
+           TOTAL PSS:   637138            TOTAL RSS:   730866       TOTAL SWAP PSS:    87072
+ 
+ Objects
+               Views:     1997         ViewRootImpl:        3
+         AppContexts:        9           Activities:        3
+              Assets:       14        AssetManagers:        0
+       Local Binders:       99        Proxy Binders:       67
+       Parcel memory:       43         Parcel count:      175
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1895
+  PAGECACHE_OVERFLOW:      394          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/21/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       52            109     147/100/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/25/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       52            109     147/100/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       304/25/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       44             77       40/100/6  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       44             60        64/24/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/24/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       52            109     151/114/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-22-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5119076 Realtime: 31375931
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   172421   172300        0   114082   173204   344004   314686    29317
+  Dalvik Heap    43870    43792        0      308    44440    55119    30543    24576
+ Dalvik Other    11240     8776        0       48    14200                           
+        Stack     3340     3340        0     3224     3348                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51243     1640    46920     1687   110940                           
+    .jar mmap      891        0        0        0    38836                           
+    .apk mmap    28174       64    21356      128    59900                           
+    .ttf mmap     4307        0      700        0    17220                           
+    .dex mmap    61054        8    58472       20    64008                           
+    .oat mmap      265        0        0        0    16452                           
+    .art mmap     4529     3816       36      106    15208                           
+   Other mmap     3129       52     2424        0     6816                           
+   EGL mtrack    46280    46280        0        0    46280                           
+    GL mtrack   102792   102792        0        0   102792                           
+      Unknown      904      884        0     8652     1280                           
+        TOTAL   662821   383772   129972   128255   662821   399123   345229    53893
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    47644                          59648
+         Native Heap:   172300                         173204
+                Code:   129160                         312356
+               Stack:     3340                           3348
+            Graphics:   149072                         149072
+       Private Other:    12228
+              System:   149077
+             Unknown:                                   17916
+ 
+           TOTAL PSS:   662821            TOTAL RSS:   715544       TOTAL SWAP PSS:   128255
+ 
+ Objects
+               Views:     2033         ViewRootImpl:        5
+         AppContexts:       13           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      108        Proxy Binders:       76
+       Parcel memory:       50         Parcel count:      180
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1938
+  PAGECACHE_OVERFLOW:      434          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/24/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       64            109     259/161/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/28/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       64            109     259/159/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       304/28/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       40             86       55/132/7  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       40             60        94/27/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/27/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       64            109     263/181/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-23-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5149082 Realtime: 31405936
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   104161   104040        0   118671   104944   254456   245137     9318
+  Dalvik Heap    34250    34172        0      304    34820    55330    30754    24576
+ Dalvik Other    11472     8968        0       44    14472                           
+        Stack     3124     3124        0     2764     3132                           
+       Ashmem       54       24        0        0      100                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51260     1664    46920     1663   110928                           
+    .jar mmap      898        0        0        0    38836                           
+    .apk mmap    29700       64    21592      128    59900                           
+    .ttf mmap     4328        0      700        0    17284                           
+    .dex mmap    61057        8    58472       20    64008                           
+    .oat mmap      268        0        0        0    16452                           
+    .art mmap     4552     3844       36      103    15200                           
+   Other mmap     2782       56     2432        0     6108                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    75516    75516        0        0    75516                           
+      Unknown      931      912        0     8632     1300                           
+        TOTAL   554049   269694   130216   132329   554049   309786   275891    33894
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    38052                          50020
+         Native Heap:   104040                         104944
+                Code:   129420                         312488
+               Stack:     3124                           3132
+            Graphics:   112818                         112818
+       Private Other:    12456
+              System:   154139
+             Unknown:                                   17408
+ 
+           TOTAL PSS:   554049            TOTAL RSS:   600810       TOTAL SWAP PSS:   132329
+ 
+ Objects
+               Views:     2080         ViewRootImpl:        5
+         AppContexts:       13           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      115        Proxy Binders:       85
+       Parcel memory:       54         Parcel count:      179
+    Death Recipients:        5      OpenSSL Sockets:        7
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2008
+  PAGECACHE_OVERFLOW:      504          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/27/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     367/210/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/31/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     367/208/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       40             51       312/31/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       64             86       67/159/7  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       64             60       118/30/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/30/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     371/230/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-23-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5179104 Realtime: 31435959
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    95127    95000        0   126659    95924   253216   243971     9244
+  Dalvik Heap    49414    49320        0      280    50008    55520    30944    24576
+ Dalvik Other    11341     8836        0       44    14348                           
+        Stack     3104     3104        0     2848     3112                           
+       Ashmem       50       24        0        0       92                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51080     1344    46920     1667   110932                           
+    .jar mmap      954        0        0        0    39092                           
+    .apk mmap    29701       64    21592      128    59900                           
+    .ttf mmap     4328        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4564     3840       36      103    15268                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    29540    29540        0        0    29540                           
+    GL mtrack    75376    75376        0        0    75376                           
+      Unknown      928      904        0     8632     1304                           
+        TOTAL   559882   267400   130040   140381   559882   308736   274915    33820
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    53196                          65276
+         Native Heap:    95000                          95924
+                Code:   129160                         312816
+               Stack:     3104                           3112
+            Graphics:   104916                         104916
+       Private Other:    12064
+              System:   162442
+             Unknown:                                   17024
+ 
+           TOTAL PSS:   559882            TOTAL RSS:   599068       TOTAL SWAP PSS:   140381
+ 
+ Objects
+               Views:     2107         ViewRootImpl:        5
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      121        Proxy Binders:       80
+       Parcel memory:       43         Parcel count:      175
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2006
+  PAGECACHE_OVERFLOW:      499          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/30/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     367/213/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/34/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     367/211/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/34/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             88       68/163/8  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       120/33/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/33/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     371/233/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-24-06 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5209119 Realtime: 31465974
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    95397    95264        0   126415    96204   253400   243927     9472
+  Dalvik Heap    48066    47976        0      280    48664    56166    31591    24575
+ Dalvik Other    11705     9180        0       44    14732                           
+        Stack     3036     3036        0     2832     3044                           
+       Ashmem       48       24        0        0       88                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51108     1372    46920     1639   110964                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29701       64    21592      128    59900                           
+    .ttf mmap     4313        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4565     3844       36      103    15268                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    29532    29532        0        0    29532                           
+    GL mtrack    70356    70356        0        0    70356                           
+      Unknown      932      908        0     8628     1308                           
+        TOTAL   553795   261604   130040   140089   553795   309566   275518    34047
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    51856                          63932
+         Native Heap:    95264                          96204
+                Code:   129188                         312888
+               Stack:     3036                           3044
+            Graphics:    99888                          99888
+       Private Other:    12412
+              System:   162151
+             Unknown:                                   17368
+ 
+           TOTAL PSS:   553795            TOTAL RSS:   593324       TOTAL SWAP PSS:   140089
+ 
+ Objects
+               Views:     2143         ViewRootImpl:        5
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      117        Proxy Binders:       80
+       Parcel memory:       42         Parcel count:      174
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1977
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/33/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     391/224/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/37/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     387/216/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/37/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             91       70/169/9  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       124/36/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/36/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     391/238/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-24-36 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5239130 Realtime: 31495985
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    94698    94564        0   127083    95504   253344   244220     9123
+  Dalvik Heap    46312    46220        0      280    46912    56367    31791    24576
+ Dalvik Other    11605     9060        0       44    14652                           
+        Stack     3036     3036        0     2828     3044                           
+       Ashmem       48       24        0        0       88                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51071     1332    46920     1663   110936                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29705       68    21592      124    59904                           
+    .ttf mmap     4287        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4546     3832       36      103    15252                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    29532    29532        0        0    29532                           
+    GL mtrack    70356    70356        0        0    70356                           
+      Unknown      928      904        0     8632     1304                           
+        TOTAL   551848   258976   130040   140777   551848   309711   276011    33699
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    50088                          62164
+         Native Heap:    94564                          95504
+                Code:   129160                         312912
+               Stack:     3036                           3044
+            Graphics:    99888                          99888
+       Private Other:    12280
+              System:   162832
+             Unknown:                                   17236
+ 
+           TOTAL PSS:   551848            TOTAL RSS:   590748       TOTAL SWAP PSS:   140777
+ 
+ Objects
+               Views:     2178         ViewRootImpl:        4
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      117        Proxy Binders:       80
+       Parcel memory:       42         Parcel count:      173
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1967
+  PAGECACHE_OVERFLOW:      439          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/36/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     391/227/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/40/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     387/219/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/40/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             91       70/172/9  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       124/39/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/39/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     391/241/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-25-06 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5269124 Realtime: 31525979
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    59210    59076        0   162851    60016   253548   244324     9223
+  Dalvik Heap    48316    48224        0      312    48916    56671    32095    24576
+ Dalvik Other    11749     9196        0       44    14804                           
+        Stack     3000     3000        0     2868     3008                           
+       Ashmem       48       24        0        0       88                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    50977     1240    46920     1671   110840                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29705       68    21592      124    59904                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4529     3824       36      112    15220                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    29532    29532        0        0    29532                           
+    GL mtrack    70356    70356        0        0    70356                           
+      Unknown      910      888        0     8640     1288                           
+        TOTAL   554187   225476   130040   176642   554187   310219   276419    33799
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    52084                          64136
+         Native Heap:    59076                          60016
+                Code:   129068                         312832
+               Stack:     3000                           3008
+            Graphics:    99888                          99888
+       Private Other:    12400
+              System:   198671
+             Unknown:                                   17356
+ 
+           TOTAL PSS:   554187            TOTAL RSS:   557236       TOTAL SWAP PSS:   176642
+ 
+ Objects
+               Views:     2214         ViewRootImpl:        4
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      117        Proxy Binders:       84
+       Parcel memory:       42         Parcel count:      173
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1977
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/39/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     405/232/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/43/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     407/224/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/43/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             94      72/178/10  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       128/42/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/42/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     411/246/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-25-36 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5299146 Realtime: 31556001
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    53550    53416        0   170743    54356   256048   247610     8437
+  Dalvik Heap    53216    53124        0      312    53816    57047    32471    24576
+ Dalvik Other    11769     9204        0       52    14836                           
+        Stack     2972     2972        0     2896     2980                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    50965     1228    46920     1683   110828                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29729       52    21632      140    59928                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4551     3848       36      120    15216                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    81388    81388        0        0    81388                           
+      Unknown      890      868        0     8660     1268                           
+        TOTAL   580233   243478   130080   184626   580233   313095   280081    33013
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    57008                          69032
+         Native Heap:    53416                          54356
+                Code:   129080                         312868
+               Stack:     2972                           2980
+            Graphics:   118690                         118690
+       Private Other:    12392
+              System:   206675
+             Unknown:                                   17368
+ 
+           TOTAL PSS:   580233            TOTAL RSS:   575294       TOTAL SWAP PSS:   184626
+ 
+ Objects
+               Views:     2284         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      120        Proxy Binders:       82
+       Parcel memory:       50         Parcel count:      178
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1972
+  PAGECACHE_OVERFLOW:      444          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/42/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     413/239/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/46/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     415/231/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/46/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             94      73/183/10  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       130/45/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/45/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     419/253/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-26-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5329127 Realtime: 31585982
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    54974    54840        0   170339    55780   257316   248131     9184
+  Dalvik Heap    51344    51252        0      312    51944    57236    32660    24576
+ Dalvik Other    11709     9128        0       52    14792                           
+        Stack     2928     2928        0     2864     2936                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51081     1284    46976     1631   110948                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29737       60    21632      132    59936                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4554     3852       36      120    15216                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    81388    81388        0        0    81388                           
+      Unknown      910      888        0     8648     1288                           
+        TOTAL   579320   242998   130136   184118   579320   314552   280791    33760
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    55140                          67160
+         Native Heap:    54840                          55780
+                Code:   129200                         313028
+               Stack:     2928                           2936
+            Graphics:   118690                         118690
+       Private Other:    12336
+              System:   206186
+             Unknown:                                   17312
+ 
+           TOTAL PSS:   579320            TOTAL RSS:   574906       TOTAL SWAP PSS:   184118
+ 
+ Objects
+               Views:     2322         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      120        Proxy Binders:       82
+       Parcel memory:       43         Parcel count:      174
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1992
+  PAGECACHE_OVERFLOW:      444          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/45/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     427/244/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/49/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     435/236/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/49/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24             97      75/189/11  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       134/48/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/48/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     443/264/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-26-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5359154 Realtime: 31616008
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    55334    55200        0   170167    56140   257172   247537     9634
+  Dalvik Heap    50084    49992        0      312    50684    57478    32902    24576
+ Dalvik Other    11821     9180        0       48    14964                           
+        Stack     2924     2924        0     2828     2932                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51081     1284    46976     1631   110948                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29737       60    21632      132    59936                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4554     3852       36      120    15216                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    83568    83568        0        0    83568                           
+      Unknown      910      888        0     8648     1288                           
+        TOTAL   580496   244326   130136   183906   580496   314650   280439    34210
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    53880                          65900
+         Native Heap:    55200                          56140
+                Code:   129196                         313144
+               Stack:     2924                           2932
+            Graphics:   120870                         120870
+       Private Other:    12392
+              System:   206034
+             Unknown:                                   17368
+ 
+           TOTAL PSS:   580496            TOTAL RSS:   576354       TOTAL SWAP PSS:   183906
+ 
+ Objects
+               Views:     2358         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      119        Proxy Binders:       82
+       Parcel memory:       43         Parcel count:      172
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1997
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/48/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     427/247/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/52/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     435/239/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/52/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            100      76/193/12  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       136/51/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/51/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     443/267/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-27-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5389157 Realtime: 31646012
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    55190    55056        0   170119    55996   256632   247829     8802
+  Dalvik Heap    51932    51840        0      312    52532    57681    33105    24576
+ Dalvik Other    11617     8968        0       48    14768                           
+        Stack     2940     2940        0     2816     2948                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51081     1284    46976     1631   110948                           
+    .jar mmap      953        0        0        0    39092                           
+    .apk mmap    29737       60    21632      132    59936                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4553     3852       36      120    15216                           
+   Other mmap     2538       40     2196        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    83568    83568        0        0    83568                           
+      Unknown      910      888        0     8648     1288                           
+        TOTAL   581951   245834   130136   183846   581951   314313   280934    33378
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    55728                          67748
+         Native Heap:    55056                          55996
+                Code:   129204                         313168
+               Stack:     2940                           2948
+            Graphics:   120870                         120870
+       Private Other:    12172
+              System:   205981
+             Unknown:                                   17148
+ 
+           TOTAL PSS:   581951            TOTAL RSS:   577878       TOTAL SWAP PSS:   183846
+ 
+ Objects
+               Views:     2394         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      120        Proxy Binders:       85
+       Parcel memory:       43         Parcel count:      172
+    Death Recipients:        5      OpenSSL Sockets:        5
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1992
+  PAGECACHE_OVERFLOW:      444          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/51/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     441/252/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/55/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     455/244/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/55/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            100      77/198/12  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       138/54/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         3/54/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     457/272/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-27-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5419134 Realtime: 31675989
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    55430    55296        0   170103    56236   257288   247919     9368
+  Dalvik Heap    56296    56204        0      292    56896    58356    33780    24576
+ Dalvik Other    11769     9104        0       48    14936                           
+        Stack     2940     2940        0     2816     2948                           
+       Ashmem       62       28        0        0      112                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51083     1284    46976     1631   110948                           
+    .jar mmap      956        0        0        0    39092                           
+    .apk mmap    29745       60    21632      132    59936                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      270        0        0        0    16452                           
+    .art mmap     4556     3852       36      121    15216                           
+   Other mmap     2540       40     2196        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    83568    83568        0        0    83568                           
+      Unknown      911      888        0     8648     1288                           
+        TOTAL   586691   250574   130136   183811   586691   315644   281699    33944
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    60092                          72112
+         Native Heap:    55296                          56236
+                Code:   129212                         313208
+               Stack:     2940                           2948
+            Graphics:   120870                         120870
+       Private Other:    12300
+              System:   205981
+             Unknown:                                   17276
+ 
+           TOTAL PSS:   586691            TOTAL RSS:   582650       TOTAL SWAP PSS:   183811
+ 
+ Objects
+               Views:     2430         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      120        Proxy Binders:       82
+       Parcel memory:       43         Parcel count:      173
+    Death Recipients:        5      OpenSSL Sockets:        5
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1997
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/54/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     441/255/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/58/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     455/247/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/58/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            103      78/202/13  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       140/57/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/57/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     457/275/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-28-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5449182 Realtime: 31706037
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    55051    54920        0   170717    55860   257456   247772     9683
+  Dalvik Heap    36736    36648        0      293    37340    58370    33794    24576
+ Dalvik Other    11801     9124        0       48    14980                           
+        Stack     2928     2928        0     2812     2936                           
+       Ashmem       52       28        0        0       92                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51072     1280    46976     1636   110944                           
+    .jar mmap      963        0        0        0    39092                           
+    .apk mmap    29554       52    21256      140    59928                           
+    .ttf mmap     4266        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      275        0        0        0    16452                           
+    .art mmap     4541     3840       36      128    15212                           
+   Other mmap     2409       52     1928        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    70232    70232        0        0    70232                           
+      Unknown      909      888        0     8648     1288                           
+        TOTAL   553719   217302   129492   184442   553719   315826   281566    34259
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    40524                          52552
+         Native Heap:    54920                          55860
+                Code:   128824                         313220
+               Stack:     2928                           2936
+            Graphics:   107534                         107534
+       Private Other:    12064
+              System:   206925
+             Unknown:                                   17276
+ 
+           TOTAL PSS:   553719            TOTAL RSS:   549378       TOTAL SWAP PSS:   184442
+ 
+ Objects
+               Views:     2466         ViewRootImpl:        5
+         AppContexts:       15           Activities:        5
+              Assets:       14        AssetManagers:        0
+       Local Binders:      121        Proxy Binders:       82
+       Parcel memory:       43         Parcel count:      172
+    Death Recipients:        5      OpenSSL Sockets:        5
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     1992
+  PAGECACHE_OVERFLOW:      444          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/57/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     463/264/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/61/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     483/256/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/61/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            103      80/209/13  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       144/60/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/60/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     479/286/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-28-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5479157 Realtime: 31736011
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    54877    54744        0   170655    55684   256968   246967    10000
+  Dalvik Heap    36161    36072        0      295    36764    58497    33921    24576
+ Dalvik Other    12047     9348        0       48    15244                           
+        Stack     2932     2932        0     2808     2940                           
+       Ashmem       52       28        0        0       92                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51139     1280    46976     1638   110944                           
+    .jar mmap     1053        0        0        0    39092                           
+    .apk mmap    29880       52    21256      140    59928                           
+    .ttf mmap     4255        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      310        0        0        0    16452                           
+    .art mmap     4557     3832       36      135    15212                           
+   Other mmap     2428       40     1940        0     5860                           
+   EGL mtrack    37310    37310        0        0    37310                           
+    GL mtrack    70368    70368        0        0    70368                           
+      Unknown      909      888        0     8648     1288                           
+        TOTAL   553851   216902   129504   184387   553851   315465   280888    34576
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    39940                          51976
+         Native Heap:    54744                          55684
+                Code:   128824                         313260
+               Stack:     2932                           2940
+            Graphics:   107678                         107678
+       Private Other:    12288
+              System:   207445
+             Unknown:                                   17500
+ 
+           TOTAL PSS:   553851            TOTAL RSS:   549038       TOTAL SWAP PSS:   184387
+ 
+ Objects
+               Views:     2467         ViewRootImpl:        5
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      122        Proxy Binders:       82
+       Parcel memory:       42         Parcel count:      171
+    Death Recipients:        5      OpenSSL Sockets:        3
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     1999
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/60/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     463/267/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/64/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     483/259/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/64/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            105      81/213/14  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       146/63/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/63/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     479/289/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-29-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5509167 Realtime: 31766022
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    53754    53620        0   170643    54564   255740   246406     9333
+  Dalvik Heap    36413    36324        0      295    37016    58531    33955    24576
+ Dalvik Other    11927     9212        0       48    15140                           
+        Stack     2940     2940        0     2800     2948                           
+       Ashmem       50       28        0        0       88                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51139     1280    46976     1638   110944                           
+    .jar mmap     1050        0        0        0    39092                           
+    .apk mmap    29880       52    21256      140    59928                           
+    .ttf mmap     4255        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      310        0        0        0    16452                           
+    .art mmap     4561     3836       36      134    15216                           
+   Other mmap     2428       40     1940        0     5860                           
+   EGL mtrack    37302    37302        0        0    37302                           
+    GL mtrack    70620    70620        0        0    70620                           
+      Unknown      909      888        0     8648     1288                           
+        TOTAL   553090   216150   129504   184366   553090   314271   280361    33909
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    40196                          52232
+         Native Heap:    53620                          54564
+                Code:   128824                         313292
+               Stack:     2940                           2948
+            Graphics:   107922                         107922
+       Private Other:    12152
+              System:   207436
+             Unknown:                                   17360
+ 
+           TOTAL PSS:   553090            TOTAL RSS:   548318       TOTAL SWAP PSS:   184366
+ 
+ Objects
+               Views:     2502         ViewRootImpl:        4
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      122        Proxy Binders:       81
+       Parcel memory:       42         Parcel count:      171
+    Death Recipients:        5      OpenSSL Sockets:        2
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2000
+  PAGECACHE_OVERFLOW:      449          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/63/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       72            109     477/272/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/67/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       72            109     503/264/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/67/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            106      83/219/15  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       150/66/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/66/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       72            109     493/294/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-29-36 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5539148 Realtime: 31796002
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    68244    68108        0   170551    69056   270956   261761     9194
+  Dalvik Heap    37583    37488        0      295    38192    59353    34777    24576
+ Dalvik Other    12075     9352        0       48    15296                           
+        Stack     2944     2944        0     2800     2952                           
+       Ashmem     6982       28        0        0    13952                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51095     1280    46976     1638   110944                           
+    .jar mmap     1048        0        0        0    39092                           
+    .apk mmap    29880       52    21256      140    59928                           
+    .ttf mmap     4245        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      309        0        0        0    16452                           
+    .art mmap     4559     3832       36      134    15224                           
+   Other mmap     2428       52     1928        0     5860                           
+   EGL mtrack    39374    39374        0        0    39374                           
+    GL mtrack    94328    94328        0        0    94328                           
+      Unknown      909      888        0     8648     1288                           
+        TOTAL   601463   257734   129492   184274   601463   330309   296538    33770
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    41356                          53416
+         Native Heap:    68108                          69056
+                Code:   128824                         313308
+               Stack:     2944                           2952
+            Graphics:   133702                         133702
+       Private Other:    12292
+              System:   214237
+             Unknown:                                   31364
+ 
+           TOTAL PSS:   601463            TOTAL RSS:   603798       TOTAL SWAP PSS:   184274
+ 
+ Objects
+               Views:     2538         ViewRootImpl:        4
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      114        Proxy Binders:       83
+       Parcel memory:       42         Parcel count:      171
+    Death Recipients:        5      OpenSSL Sockets:        2
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2010
+  PAGECACHE_OVERFLOW:      459          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/66/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       76            109     485/279/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/70/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       76            109     511/271/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/70/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       24            106      84/224/15  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       24             60       152/69/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/69/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       76            109     501/301/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+
+2023-04-17 23-30-06 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5569145 Realtime: 31826000
+
+** MEMINFO in pid 10899 [com.nio.pe.niopower] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    68143    68008        0   170183    68956   270096   260757     9338
+  Dalvik Heap    47665    47572        0      294    48276    59561    34985    24576
+ Dalvik Other    11931     9008        0       48    15352                           
+        Stack     2944     2944        0     2800     2952                           
+       Ashmem     6952       28        0        0    13892                           
+    Other dev       65        0       64        0      508                           
+     .so mmap    51093     1280    46976     1637   110944                           
+    .jar mmap     1041        0        0        0    39092                           
+    .apk mmap    29876       52    21256      140    59928                           
+    .ttf mmap     4245        0      700        0    17284                           
+    .dex mmap    61121        8    58532       20    64068                           
+    .oat mmap      305        0        0        0    16452                           
+    .art mmap     4541     3812       36      132    15228                           
+   Other mmap     2787       52     2288        0     6220                           
+   EGL mtrack    42136    42136        0        0    42136                           
+    GL mtrack   138056   138056        0        0   138056                           
+      Unknown      907      888        0     8648     1288                           
+        TOTAL   657710   313844   129852   183902   657710   329657   295742    33914
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    51420                          63504
+         Native Heap:    68008                          68956
+                Code:   128812                         313696
+               Stack:     2944                           2952
+            Graphics:   180192                         180192
+       Private Other:    12320
+              System:   214014
+             Unknown:                                   31332
+ 
+           TOTAL PSS:   657710            TOTAL RSS:   660632       TOTAL SWAP PSS:   183902
+ 
+ Objects
+               Views:     2550         ViewRootImpl:        4
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      124        Proxy Binders:       88
+       Parcel memory:       42         Parcel count:      171
+    Death Recipients:        5      OpenSSL Sockets:        2
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2062
+  PAGECACHE_OVERFLOW:      509          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             17         0/69/1  /data/user/0/com.nio.pe.niopower/databases/npth_log.db
+         4       84            109     581/326/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_369777
+         4       20             44         8/73/5  /data/user/0/com.nio.pe.niopower/databases/lib_log_queue.db
+         4       84            109     613/318/20  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240734
+         4       32             51       318/73/5  /data/user/0/com.nio.pe.niopower/databases/sensorsdata
+         4       40            108      97/252/16  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower
+         4       40             60       178/72/5  /data/user/0/com.nio.pe.niopower/databases/tmsbeacon_db_com.nio.pe.niopower (2)
+         4       36             44         7/72/4  /data/user/0/com.nio.pe.niopower/databases/apm_monitor_t1.db
+         4       84            109     597/350/24  /data/user/0/com.nio.pe.niopower/databases/bd_tea_agent_240740
+ 
+ Asset Allocations
+    : 4780K
+

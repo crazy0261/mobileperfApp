@@ -1,0 +1,4 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2023-04-17 23-20-35,7522.78,2762.78,com.nio.pe.niopower,10899,592.12
+2023-04-17 23-25-05,7522.78,2590.65,com.nio.pe.niopower,10899,529.71
+2023-04-17 23-30-05,7522.78,2675.79,com.nio.pe.niopower,10899,554.75

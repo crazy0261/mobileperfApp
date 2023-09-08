@@ -1,0 +1,4 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2023-04-17 23-32-23,7522.78,2955.58,com.yiyitech.powerex,12110,447.2
+2023-04-17 23-36-53,7522.78,2901.6,com.yiyitech.powerex,12110,438.62
+2023-04-17 23-41-53,7522.78,3008.44,com.yiyitech.powerex,12110,418.64

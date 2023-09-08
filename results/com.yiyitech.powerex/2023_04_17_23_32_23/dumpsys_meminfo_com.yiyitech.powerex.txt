@@ -1,0 +1,1219 @@
+2023-04-17 23-32-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5707512 Realtime: 31964367
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap     3776     3748        0    13716     4292    27824    25143     2680
+  Dalvik Heap     4779     4752        0      287     5268     9904     5808     4096
+ Dalvik Other     1613     1568        0     1192     2172                           
+        Stack      936      936        0     1272      944                           
+       Ashmem        0        0        0        0        8                           
+    Other dev      300      284       16    31616      736                           
+     .so mmap    16226       64    15608      753    51048                           
+    .jar mmap      492        0        0        0    31972                           
+    .apk mmap     1235        0       64        0    17184                           
+    .ttf mmap      321        0      276        0      396                           
+    .dex mmap      221        0      216       16      372                           
+    .oat mmap      154        0        0        0    13608                           
+    .art mmap     1031      748        0      703    10804                           
+   Other mmap       79       28       16       12     2500                           
+    GL mtrack     1248     1248        0        0     1248                           
+      Unknown      350      328        0    13521      760                           
+        TOTAL    95849    13704    16196    63088    95849    37728    30951     6776
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     5500                          16072
+         Native Heap:     3748                           4292
+                Code:    16228                         114740
+               Stack:      936                            944
+            Graphics:     1248                           1248
+       Private Other:     2240
+              System:    65949
+             Unknown:                                    6016
+ 
+           TOTAL PSS:    95849            TOTAL RSS:   143312       TOTAL SWAP PSS:    63088
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        2           Activities:        0
+              Assets:       10        AssetManagers:        0
+       Local Binders:       46        Proxy Binders:       35
+       Parcel memory:       22         Parcel count:       88
+    Death Recipients:        1      OpenSSL Sockets:        3
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      680
+  PAGECACHE_OVERFLOW:      108          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/16/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/18/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             42         3/18/4  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        20/17/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-32-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5737505 Realtime: 31994360
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   125587   125336        0     9340   126436   157820   153156     4663
+  Dalvik Heap    15713    15628        0       14    16280    24556    12268    12288
+ Dalvik Other     6263     5144        0       24     7884                           
+        Stack     4196     4196        0      804     4204                           
+       Ashmem       10        0        0        0       32                           
+    Other dev    15528    15488       40    16412    15968                           
+     .so mmap    22597     1608    11496      488    86152                           
+    .jar mmap      892        0        0        0    37676                           
+    .apk mmap     1080        0      128        0    18228                           
+    .ttf mmap     3553        0      496        0    14996                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      283        0        0        0    16132                           
+    .art mmap     4328     3496       36       71    15252                           
+   Other mmap      134       40        0        4     2836                           
+   EGL mtrack     9324     9324        0        0     9324                           
+    GL mtrack    77904    77904        0        0    77904                           
+      Unknown     1729     1700        0    12520     2148                           
+        TOTAL   328927   259864    12196    39693   328927   182376   165424    16951
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    19160                          31532
+         Native Heap:   125336                         126436
+                Code:    13740                         175892
+               Stack:     4196                           4204
+            Graphics:    87228                          87228
+       Private Other:    22400
+              System:    56867
+             Unknown:                                   26544
+ 
+           TOTAL PSS:   328927            TOTAL RSS:   451836       TOTAL SWAP PSS:    39693
+ 
+ Objects
+               Views:      994         ViewRootImpl:        5
+         AppContexts:        9           Activities:        2
+              Assets:       10        AssetManagers:        0
+       Local Binders:       72        Proxy Binders:       57
+       Parcel memory:       35         Parcel count:      130
+    Death Recipients:        2      OpenSSL Sockets:       10
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/19/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/21/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       102/22/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        24/20/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-33-23 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5767499 Realtime: 32024353
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   131068   130820        0     9316   131920   163204   156050     7153
+  Dalvik Heap    16051    15964        0       14    16620    24503    12215    12288
+ Dalvik Other     6599     5184        0       24     8516                           
+        Stack     4124     4124        0      804     4132                           
+       Ashmem        6        0        0        0       28                           
+    Other dev    15624    15584       40    16316    16064                           
+     .so mmap    22597     1608    11496      488    86152                           
+    .jar mmap      927        0        0        0    38060                           
+    .apk mmap     1100        0      128        0    18356                           
+    .ttf mmap     3553        0      496        0    14996                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      283        0        0        0    16132                           
+    .art mmap     4373     3544       36       66    15304                           
+   Other mmap      134       40        0        4     2836                           
+   EGL mtrack     5525     5525        0        0     5525                           
+    GL mtrack    84376    84376        0        0    84376                           
+      Unknown     1729     1700        0    12520     2148                           
+        TOTAL   337750   268469    12196    39568   337750   187707   168265    19441
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    19544                          31924
+         Native Heap:   130820                         131920
+                Code:    13752                         177008
+               Stack:     4124                           4132
+            Graphics:    89901                          89901
+       Private Other:    22524
+              System:    57085
+             Unknown:                                   26664
+ 
+           TOTAL PSS:   337750            TOTAL RSS:   461549       TOTAL SWAP PSS:    39568
+ 
+ Objects
+               Views:     1030         ViewRootImpl:        6
+         AppContexts:       11           Activities:        3
+              Assets:       10        AssetManagers:        0
+       Local Binders:       75        Proxy Binders:       58
+       Parcel memory:       36         Parcel count:      135
+    Death Recipients:        2      OpenSSL Sockets:        7
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      715
+  PAGECACHE_OVERFLOW:      143          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/22/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/24/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       56             51       182/25/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        24/23/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-33-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5797511 Realtime: 32054366
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   127181   126936        0    45828   128036   197528   191043     6484
+  Dalvik Heap    23130    23044        0       86    23700    31518    15759    15759
+ Dalvik Other     6467     5012        0      896     8424                           
+        Stack     3684     3684        0     1608     3692                           
+       Ashmem       26        0        0        0       68                           
+    Other dev    10464    10424       40    21476    10904                           
+     .so mmap    22508     1524    11496      572    86068                           
+    .jar mmap      960        0        0        0    38188                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4005        0      688        0    16148                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4317     3496       36      130    15252                           
+   Other mmap      133       40        0        4     2836                           
+   EGL mtrack    13736    13736        0        0    13736                           
+    GL mtrack    90032    90032        0        0    90032                           
+      Unknown      983      956        0    13276     1404                           
+        TOTAL   393091   278884    12452    83892   393091   229046   206802    22243
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    26576                          38952
+         Native Heap:   126936                         128036
+                Code:    14148                         178700
+               Stack:     3684                           3692
+            Graphics:   103768                         103768
+       Private Other:    16224
+              System:   101755
+             Unknown:                                   20404
+ 
+           TOTAL PSS:   393091            TOTAL RSS:   473552       TOTAL SWAP PSS:    83892
+ 
+ Objects
+               Views:     1763         ViewRootImpl:        7
+         AppContexts:       13           Activities:        4
+              Assets:       10        AssetManagers:        0
+       Local Binders:       87        Proxy Binders:       61
+       Parcel memory:       41         Parcel count:      139
+    Death Recipients:        2      OpenSSL Sockets:       15
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/25/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/27/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       250/28/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        24/26/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-34-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5827535 Realtime: 32084390
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   115253   115008        0    44716   116108   182216   175482     6733
+  Dalvik Heap    19868    19768        0       18    20456    29776    14888    14888
+ Dalvik Other     7147     5692        0       52     9104                           
+        Stack     3868     3868        0     1324     3876                           
+       Ashmem       26        0        0        0       68                           
+    Other dev    10552    10512       40    21388    10992                           
+     .so mmap    22522     1540    11496      556    86084                           
+    .jar mmap      960        0        0        0    38188                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4005        0      688        0    16148                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4366     3552       36      110    15276                           
+   Other mmap      133       36        4        4     2836                           
+   EGL mtrack    12108    12108        0        0    12108                           
+    GL mtrack   137684   137684        0        0   137684                           
+      Unknown      999      972        0    13260     1420                           
+        TOTAL   422508   310740    12456    81444   422508   211992   190370    21621
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    23356                          35732
+         Native Heap:   115008                         116108
+                Code:    14164                         178716
+               Stack:     3868                           3876
+            Graphics:   149792                         149792
+       Private Other:    17008
+              System:    99312
+             Unknown:                                   21188
+ 
+           TOTAL PSS:   422508            TOTAL RSS:   505412       TOTAL SWAP PSS:    81444
+ 
+ Objects
+               Views:     1719         ViewRootImpl:        3
+         AppContexts:        9           Activities:        2
+              Assets:       10        AssetManagers:        0
+       Local Binders:       74        Proxy Binders:       59
+       Parcel memory:       32         Parcel count:      130
+    Death Recipients:        2      OpenSSL Sockets:        9
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/28/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/30/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       252/31/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        24/29/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-34-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5857518 Realtime: 32114373
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   105613   105368        0    44576   106468   171524   164249     7274
+  Dalvik Heap    19127    19028        0       18    19716    29372    14686    14686
+ Dalvik Other     7107     5604        0       52     9112                           
+        Stack     3364     3364        0     1324     3372                           
+       Ashmem       26        0        0        0       68                           
+    Other dev    10636    10596       40    21304    11076                           
+     .so mmap    22522     1540    11496      556    86084                           
+    .jar mmap      960        0        0        0    38188                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4005        0      688        0    16148                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4373     3560       36      110    15276                           
+   Other mmap      133       36        4        4     2836                           
+   EGL mtrack    13193    13193        0        0    13193                           
+    GL mtrack    90580    90580        0        0    90580                           
+      Unknown      999      972        0    13260     1420                           
+        TOTAL   365431   253841    12456    81220   365431   200896   178935    21960
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    22624                          34992
+         Native Heap:   105368                         106468
+                Code:    14124                         178772
+               Stack:     3364                           3372
+            Graphics:   103773                         103773
+       Private Other:    17044
+              System:    99134
+             Unknown:                                   21224
+ 
+           TOTAL PSS:   365431            TOTAL RSS:   448601       TOTAL SWAP PSS:    81220
+ 
+ Objects
+               Views:     1719         ViewRootImpl:        4
+         AppContexts:        9           Activities:        2
+              Assets:       10        AssetManagers:        0
+       Local Binders:       74        Proxy Binders:       56
+       Parcel memory:       32         Parcel count:      130
+    Death Recipients:        2      OpenSSL Sockets:        7
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/31/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/33/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       252/34/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        24/32/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-35-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5887538 Realtime: 32144392
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   121445   121200        0    53724   122300   197572   188879     8692
+  Dalvik Heap    25211    25112        0       22    25800    32514    16257    16257
+ Dalvik Other     7227     5672        0      232     9284                           
+        Stack     3992     3992        0     1232     4000                           
+       Ashmem        6        0        0        0       28                           
+    Other dev    12500    12460       40    19440    12940                           
+     .so mmap    22659     1580    11496      528    86532                           
+    .jar mmap      970        0        0        0    38316                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4021        0      688        0    16212                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4395     3584       36       94    15288                           
+   Other mmap      133       40        0        4     2836                           
+   EGL mtrack     4662     4662        0        0     4662                           
+    GL mtrack    96476    96476        0        0    96476                           
+      Unknown     1103     1076        0    13156     1524                           
+        TOTAL   394821   275854    12452    88448   394821   230086   205136    24949
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    28732                          41088
+         Native Heap:   121200                         122300
+                Code:    14156                         179508
+               Stack:     3992                           4000
+            Graphics:   101138                         101138
+       Private Other:    19088
+              System:   106515
+             Unknown:                                   23228
+ 
+           TOTAL PSS:   394821            TOTAL RSS:   471262       TOTAL SWAP PSS:    88448
+ 
+ Objects
+               Views:     2273         ViewRootImpl:        6
+         AppContexts:       11           Activities:        3
+              Assets:       10        AssetManagers:        0
+       Local Binders:       82        Proxy Binders:       63
+       Parcel memory:       38         Parcel count:      137
+    Death Recipients:        2      OpenSSL Sockets:        8
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      715
+  PAGECACHE_OVERFLOW:      143          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/34/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/36/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       56             51       304/37/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        26/35/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-35-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5917554 Realtime: 32174409
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   116045   115800        0    53456   116900   191056   184517     6538
+  Dalvik Heap    22771    22672        0       18    23360    32815    16408    16407
+ Dalvik Other     7291     5720        0       36     9364                           
+        Stack     3840     3840        0     1212     3848                           
+       Ashmem        8        0        0        0       32                           
+    Other dev    12576    12536       40    19364    13016                           
+     .so mmap    22659     1580    11496      528    86532                           
+    .jar mmap      970        0        0        0    38316                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4028        0      688        0    16276                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4408     3604       36       90    15304                           
+   Other mmap      133       36        4        4     2836                           
+   EGL mtrack     7252     7252        0        0     7252                           
+    GL mtrack    96956    96956        0        0    96956                           
+      Unknown     1103     1076        0    13156     1524                           
+        TOTAL   389493   271072    12456    87880   389493   223871   200925    22945
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    26312                          38664
+         Native Heap:   115800                         116900
+                Code:    14156                         179604
+               Stack:     3840                           3848
+            Graphics:   104208                         104208
+       Private Other:    19212
+              System:   105965
+             Unknown:                                   23356
+ 
+           TOTAL PSS:   389493            TOTAL RSS:   466580       TOTAL SWAP PSS:    87880
+ 
+ Objects
+               Views:     2239         ViewRootImpl:        5
+         AppContexts:       11           Activities:        3
+              Assets:       10        AssetManagers:        0
+       Local Binders:       75        Proxy Binders:       68
+       Parcel memory:       32         Parcel count:      132
+    Death Recipients:        2      OpenSSL Sockets:       10
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/37/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/39/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       346/40/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        26/38/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-36-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5947528 Realtime: 32204383
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   118689   118444        0    52772   119544   192792   186705     6086
+  Dalvik Heap    21847    21748        0       18    22436    32700    16350    16350
+ Dalvik Other     7267     5696        0       36     9340                           
+        Stack     3432     3432        0     1208     3440                           
+       Ashmem        8        0        0        0       32                           
+    Other dev    12624    12584       40    19316    13064                           
+     .so mmap    22812     1584    11496      524    87048                           
+    .jar mmap      970        0        0        0    38316                           
+    .apk mmap     1172        0      192        0    18484                           
+    .ttf mmap     4041        0      688        0    16340                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      288        0        0        0    16196                           
+    .art mmap     4431     3632       36       86    15316                           
+   Other mmap      133       40        0        4     2836                           
+   EGL mtrack     7252     7252        0        0     7252                           
+    GL mtrack    74860    74860        0        0    74860                           
+      Unknown     1103     1076        0    13156     1524                           
+        TOTAL   368178   250348    12452    87136   368178   225492   203055    22436
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    25416                          37752
+         Native Heap:   118444                         119544
+                Code:    14160                         180184
+               Stack:     3432                           3440
+            Graphics:    82112                          82112
+       Private Other:    19236
+              System:   105378
+             Unknown:                                   23380
+ 
+           TOTAL PSS:   368178            TOTAL RSS:   446412       TOTAL SWAP PSS:    87136
+ 
+ Objects
+               Views:     2253         ViewRootImpl:        6
+         AppContexts:       11           Activities:        3
+              Assets:       10        AssetManagers:        0
+       Local Binders:       74        Proxy Binders:       64
+       Parcel memory:       32         Parcel count:      131
+    Death Recipients:        2      OpenSSL Sockets:       10
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/40/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/42/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       374/43/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        26/41/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-36-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 5977550 Realtime: 32234405
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   112245   112000        0    58777   113100   192052   186144     5907
+  Dalvik Heap    23091    22992        0       19    23680    32798    16399    16399
+ Dalvik Other     7251     5660        0       36     9344                           
+        Stack     2908     2908        0     1208     2916                           
+       Ashmem       20        0        0        0       56                           
+    Other dev    12664    12624       40    19276    13104                           
+     .so mmap    22814     1584    11496      524    87048                           
+    .jar mmap      974        0        0        0    38316                           
+    .apk mmap     1175        0      192        0    18484                           
+    .ttf mmap     4041        0      688        0    16340                           
+    .dex mmap      113        0        0       16      384                           
+    .oat mmap      290        0        0        0    16196                           
+    .art mmap     4430     3632       36       88    15320                           
+   Other mmap      133       36        4        4     2836                           
+   EGL mtrack    13970    13970        0        0    13970                           
+    GL mtrack    74300    74300        0        0    74300                           
+      Unknown     1103     1076        0    13156     1524                           
+        TOTAL   374626   250782    12456    93104   374626   224850   202543    22306
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    26660                          39000
+         Native Heap:   112000                         113100
+                Code:    14160                         180224
+               Stack:     2908                           2916
+            Graphics:    88270                          88270
+       Private Other:    19240
+              System:   111388
+             Unknown:                                   23408
+ 
+           TOTAL PSS:   374626            TOTAL RSS:   446918       TOTAL SWAP PSS:    93104
+ 
+ Objects
+               Views:     2253         ViewRootImpl:        5
+         AppContexts:       11           Activities:        3
+              Assets:       10        AssetManagers:        0
+       Local Binders:       72        Proxy Binders:       69
+       Parcel memory:       32         Parcel count:      132
+    Death Recipients:        2      OpenSSL Sockets:       10
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      705
+  PAGECACHE_OVERFLOW:      133          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/43/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/45/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       48             51       440/46/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        26/44/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-37-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6007553 Realtime: 32264408
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    60696    60548        0   123422    61444   209872   201895     7976
+  Dalvik Heap    20060    19964        0      715    20624    34421    17211    17210
+ Dalvik Other     8095     6340        0       36    10352                           
+        Stack     2536     2536        0     2264     2544                           
+       Ashmem      192      168        0        0      232                           
+    Other dev    13084    13044       40    18856    13528                           
+     .so mmap    22315      888    11496     1308    89104                           
+    .jar mmap     1074        0        0        0    39584                           
+    .apk mmap    30427      192    22424        0    56780                           
+    .ttf mmap     3947        0      584        0    16340                           
+    .dex mmap     4740       16     2100       16     7548                           
+    .oat mmap      308        0        0        0    16464                           
+    .art mmap     4827     4024       36       92    15644                           
+   Other mmap     1729       40     1252        0     5252                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    86136    86136        0        0    86136                           
+      Unknown     1258     1232        0    13244     1672                           
+        TOTAL   433809   207560    37932   159953   433809   244293   219106    25186
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    24024                          36268
+         Native Heap:    60548                          61444
+                Code:    37908                         229612
+               Stack:     2536                           2544
+            Graphics:    98568                          98568
+       Private Other:    21908
+              System:   188317
+             Unknown:                                   27244
+ 
+           TOTAL PSS:   433809            TOTAL RSS:   455680       TOTAL SWAP PSS:   159953
+ 
+ Objects
+               Views:     2273         ViewRootImpl:        6
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      101        Proxy Binders:       70
+       Parcel memory:       38         Parcel count:      154
+    Death Recipients:        5      OpenSSL Sockets:       10
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/46/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/48/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       456/49/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/47/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-37-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6037559 Realtime: 32294413
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    47356    47240        0   135651    48008   208404   202488     5915
+  Dalvik Heap    21232    21136        0      715    21796    34628    17314    17314
+ Dalvik Other     8083     6320        0       44    10348                           
+        Stack     2208     2208        0     2556     2216                           
+       Ashmem      192      168        0        0      232                           
+    Other dev    10332    10292       40    21608    10776                           
+     .so mmap    22315      840    11552     1360    89064                           
+    .jar mmap     1073        0        0        0    39584                           
+    .apk mmap    30491      192    22488        0    56844                           
+    .ttf mmap     3947        0      584        0    16340                           
+    .dex mmap     4740       16     2100       16     7548                           
+    .oat mmap      308        0        0        0    16464                           
+    .art mmap     4767     4008       36      115    15380                           
+   Other mmap     1729       40     1252        0     5252                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    86140    86140        0        0    86140                           
+      Unknown      893      876        0    13604     1280                           
+        TOTAL   433907   191908    38052   175669   433907   243032   219802    23229
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    25180                          37176
+         Native Heap:    47240                          48008
+                Code:    37984                         229656
+               Stack:     2208                           2216
+            Graphics:    98572                          98572
+       Private Other:    18776
+              System:   203947
+             Unknown:                                   24076
+ 
+           TOTAL PSS:   433907            TOTAL RSS:   439704       TOTAL SWAP PSS:   175669
+ 
+ Objects
+               Views:     2275         ViewRootImpl:        6
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:       99        Proxy Binders:       69
+       Parcel memory:       38         Parcel count:      154
+    Death Recipients:        5      OpenSSL Sockets:       11
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/49/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/51/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       460/52/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/50/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-38-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6067561 Realtime: 32324416
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    43719    43636        0   139541    44328   208744   201340     7403
+  Dalvik Heap    20596    20500        0      715    21160    34623    17312    17311
+ Dalvik Other     8063     6292        0       56    10336                           
+        Stack     2076     2076        0     2172     2084                           
+       Ashmem      192      168        0        0      232                           
+    Other dev     6512     6472       40    25428     6956                           
+     .so mmap    22287      812    11552     1380    89036                           
+    .jar mmap     1073        0        0        0    39584                           
+    .apk mmap    30407       48    22548      144    56760                           
+    .ttf mmap     3947        0      584        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      308        0        0        0    16464                           
+    .art mmap     4703     3964       36      147    15300                           
+   Other mmap     1729       40     1252        0     5252                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    86140    86140        0        0    86140                           
+      Unknown      857      840        0    13640     1244                           
+        TOTAL   433020   183428    38112   183247   433020   243367   218652    24714
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    24500                          36460
+         Native Heap:    43636                          44328
+                Code:    37864                         229552
+               Stack:     2076                           2084
+            Graphics:    98572                          98572
+       Private Other:    14892
+              System:   211480
+             Unknown:                                   20192
+ 
+           TOTAL PSS:   433020            TOTAL RSS:   431188       TOTAL SWAP PSS:   183247
+ 
+ Objects
+               Views:     2275         ViewRootImpl:        7
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      100        Proxy Binders:       69
+       Parcel memory:       38         Parcel count:      154
+    Death Recipients:        5      OpenSSL Sockets:       11
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/52/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/54/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       460/55/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/53/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-38-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6097574 Realtime: 32354429
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    41185    41104        0   141787    41784   208096   201254     6841
+  Dalvik Heap    20545    20448        0      717    21108    34373    17187    17186
+ Dalvik Other     8102     6300        0       56    10408                           
+        Stack     1980     1980        0     2268     1988                           
+       Ashmem      192      168        0        0      232                           
+    Other dev     6596     6556       40    25344     7040                           
+     .so mmap    22279      812    11552     1381    89004                           
+    .jar mmap     1095        0        0        0    39584                           
+    .apk mmap    30418       48    22548      144    56760                           
+    .ttf mmap     3947        0      584        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      320        0        0        0    16464                           
+    .art mmap     4708     3956       36      147    15308                           
+   Other mmap     1729       40     1252        0     5252                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    86140    86140        0        0    86140                           
+      Unknown      846      828        0    13652     1232                           
+        TOTAL   432766   180820    38112   185520   432766   242469   218441    24027
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    24440                          36416
+         Native Heap:    41104                          41784
+                Code:    37872                         229592
+               Stack:     1980                           1988
+            Graphics:    98572                          98572
+       Private Other:    14964
+              System:   213834
+             Unknown:                                   20264
+ 
+           TOTAL PSS:   432766            TOTAL RSS:   428616       TOTAL SWAP PSS:   185520
+ 
+ Objects
+               Views:     2275         ViewRootImpl:        7
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:      102        Proxy Binders:       69
+       Parcel memory:       38         Parcel count:      154
+    Death Recipients:        5      OpenSSL Sockets:       10
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/55/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/57/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       460/58/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/56/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-39-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6127577 Realtime: 32384431
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    41129    41048        0   141467    41728   207840   201330     6509
+  Dalvik Heap    21009    20912        0      717    21572    33645    16823    16822
+ Dalvik Other     8122     6316        0       56    10432                           
+        Stack     2004     2004        0     2244     2012                           
+       Ashmem      192      168        0        0      232                           
+    Other dev     6616     6576       40    25324     7060                           
+     .so mmap    22279      812    11552     1381    89004                           
+    .jar mmap     1095        0        0        0    39584                           
+    .apk mmap    30418       48    22548      144    56760                           
+    .ttf mmap     3947        0      584        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      320        0        0        0    16464                           
+    .art mmap     4718     3964       36      142    15320                           
+   Other mmap     1729       40     1252        0     5252                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    86140    86140        0        0    86140                           
+      Unknown      846      828        0    13652     1232                           
+        TOTAL   432879   181296    38112   185151   432879   241485   218153    23331
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    24912                          36892
+         Native Heap:    41048                          41728
+                Code:    37872                         229600
+               Stack:     2004                           2012
+            Graphics:    98572                          98572
+       Private Other:    15000
+              System:   213471
+             Unknown:                                   20300
+ 
+           TOTAL PSS:   432879            TOTAL RSS:   429104       TOTAL SWAP PSS:   185151
+ 
+ Objects
+               Views:     2275         ViewRootImpl:        6
+         AppContexts:       13           Activities:        4
+              Assets:       14        AssetManagers:        0
+       Local Binders:       95        Proxy Binders:       69
+       Parcel memory:       38         Parcel count:      154
+    Death Recipients:        5      OpenSSL Sockets:        6
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/58/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/60/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       460/61/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/59/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-39-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6157567 Realtime: 32414421
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    45869    45788        0   137166    46468   207396   198974     8421
+  Dalvik Heap    22344    22248        0      673    22896    33989    16995    16994
+ Dalvik Other     8146     6328        0       48    10468                           
+        Stack     2044     2044        0     2104     2052                           
+       Ashmem      184      172        0        0      212                           
+    Other dev     8044     8004       40    23896     8488                           
+     .so mmap    22367      864    11552     1361    89780                           
+    .jar mmap     1177        0       64        0    39712                           
+    .apk mmap    33285       52    23320      140    61608                           
+    .ttf mmap     4041        0      688        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      320        0        0        0    16464                           
+    .art mmap     4776     4020       36      142    15356                           
+   Other mmap     1766       40     1252        0     6316                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    74428    74428        0        0    74428                           
+      Unknown      878      860        0    13620     1264                           
+        TOTAL   426007   177288    39052   179174   426007   241385   215969    25415
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    26304                          38252
+         Native Heap:    45788                          46468
+                Code:    38872                         235380
+               Stack:     2044                           2052
+            Graphics:    86860                          86860
+       Private Other:    16472
+              System:   209667
+             Unknown:                                   22812
+ 
+           TOTAL PSS:   426007            TOTAL RSS:   431824       TOTAL SWAP PSS:   179174
+ 
+ Objects
+               Views:     2275         ViewRootImpl:        6
+         AppContexts:       13           Activities:        4
+              Assets:       15        AssetManagers:        0
+       Local Binders:       90        Proxy Binders:       76
+       Parcel memory:       38         Parcel count:      157
+    Death Recipients:        3      OpenSSL Sockets:        7
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/61/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/63/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       490/64/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/62/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-40-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6187581 Realtime: 32444435
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    42964    42880        0   138770    43568   204884   198709     6174
+  Dalvik Heap    23163    23068        0      673    23716    33743    16872    16871
+ Dalvik Other     8162     6328        0       48    10500                           
+        Stack     2064     2064        0     2088     2072                           
+       Ashmem      184      172        0        0      212                           
+    Other dev     8092     8052       40    23848     8536                           
+     .so mmap    22265      760    11552     1366    89680                           
+    .jar mmap     1183        0       64        0    39776                           
+    .apk mmap    30930       52    23192      140    57080                           
+    .ttf mmap     4041        0      688        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      320        0        0        0    16464                           
+    .art mmap     4778     4016       36      142    15360                           
+   Other mmap     1766       44     1248        0     6316                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    74436    74436        0        0    74436                           
+      Unknown      878      860        0    13620     1264                           
+        TOTAL   423109   175172    38920   180719   423109   238627   215581    23045
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    27120                          39076
+         Native Heap:    42880                          43568
+                Code:    38640                         230848
+               Stack:     2064                           2072
+            Graphics:    86868                          86868
+       Private Other:    16520
+              System:   209017
+             Unknown:                                   22860
+ 
+           TOTAL PSS:   423109            TOTAL RSS:   425292       TOTAL SWAP PSS:   180719
+ 
+ Objects
+               Views:     2241         ViewRootImpl:        5
+         AppContexts:       11           Activities:        3
+              Assets:       14        AssetManagers:        0
+       Local Binders:       88        Proxy Binders:       74
+       Parcel memory:       38         Parcel count:      155
+    Death Recipients:        3      OpenSSL Sockets:        8
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/64/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/66/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       534/67/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/65/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-40-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6217603 Realtime: 32474457
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    42376    42292        0   138902    42980   204500   198390     6109
+  Dalvik Heap    22667    22572        0      673    23220    33070    16535    16535
+ Dalvik Other     8182     6304        0       48    10564                           
+        Stack     2048     2048        0     2092     2056                           
+       Ashmem      184      172        0        0      212                           
+    Other dev     8180     8140       40    23760     8624                           
+     .so mmap    22233      728    11552     1366    89648                           
+    .jar mmap     1183        0       64        0    39776                           
+    .apk mmap    30930       52    23192      140    57080                           
+    .ttf mmap     4041        0      688        0    16340                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      320        0        0        0    16464                           
+    .art mmap     4775     4016       36      142    15360                           
+   Other mmap     1766       40     1252        0     6316                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    74688    74688        0        0    74688                           
+      Unknown      878      860        0    13620     1264                           
+        TOTAL   422382   174352    38924   180767   422382   237570   214925    22644
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    26624                          38580
+         Native Heap:    42292                          42980
+                Code:    38600                         230896
+               Stack:     2048                           2056
+            Graphics:    87120                          87120
+       Private Other:    16592
+              System:   209106
+             Unknown:                                   22932
+ 
+           TOTAL PSS:   422382            TOTAL RSS:   424564       TOTAL SWAP PSS:   180767
+ 
+ Objects
+               Views:     2241         ViewRootImpl:        5
+         AppContexts:       11           Activities:        3
+              Assets:       14        AssetManagers:        0
+       Local Binders:       88        Proxy Binders:       76
+       Parcel memory:       38         Parcel count:      156
+    Death Recipients:        3      OpenSSL Sockets:        4
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/67/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/69/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       580/70/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/68/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-41-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6247588 Realtime: 32504442
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    46046    45960        0   142480    46652   212460   206612     5847
+  Dalvik Heap    23132    23036        0      629    23684    34008    17004    17004
+ Dalvik Other     8214     6304        0       88    10628                           
+        Stack     2144     2144        0     2280     2152                           
+       Ashmem      184      172        0        0      212                           
+    Other dev     9472     9432       40    22468     9916                           
+     .so mmap    22183      676    11552     1399    89588                           
+    .jar mmap     1187        0       64        0    39776                           
+    .apk mmap    30928       48    23192      144    57076                           
+    .ttf mmap     4067        0      688        0    16468                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      322        0        0        0    16464                           
+    .art mmap     4752     3988       36      127    15336                           
+   Other mmap     1766       44     1248        0     6316                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    74436    74436        0        0    74436                           
+      Unknown      854      836        0    13644     1240                           
+        TOTAL   430134   179516    38920   183283   430134   246468   223616    22851
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    27060                          39020
+         Native Heap:    45960                          46652
+                Code:    38560                         231040
+               Stack:     2144                           2152
+            Graphics:    86868                          86868
+       Private Other:    17844
+              System:   211698
+             Unknown:                                   24184
+ 
+           TOTAL PSS:   430134            TOTAL RSS:   429916       TOTAL SWAP PSS:   183283
+ 
+ Objects
+               Views:     2277         ViewRootImpl:        7
+         AppContexts:       11           Activities:        3
+              Assets:       14        AssetManagers:        0
+       Local Binders:       88        Proxy Binders:       74
+       Parcel memory:       38         Parcel count:      157
+    Death Recipients:        3      OpenSSL Sockets:        6
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      695
+  PAGECACHE_OVERFLOW:      123          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/70/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/72/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       40             51       632/73/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/71/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+
+2023-04-17 23-41-54 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 6277588 Realtime: 32534443
+
+** MEMINFO in pid 12110 [com.yiyitech.powerex] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    46054    45968        0   142436    46660   212332   206388     5943
+  Dalvik Heap    23172    23076        0      629    23724    33743    16872    16871
+ Dalvik Other     8214     6284        0       88    10648                           
+        Stack     2148     2148        0     2280     2156                           
+       Ashmem      184      172        0        0      212                           
+    Other dev     9492     9452       40    22448     9936                           
+     .so mmap    22183      676    11552     1399    89588                           
+    .jar mmap     1187        0       64        0    39776                           
+    .apk mmap    30928       48    23192      144    57076                           
+    .ttf mmap     4067        0      688        0    16468                           
+    .dex mmap     4732        8     2100       24     7540                           
+    .oat mmap      322        0        0        0    16464                           
+    .art mmap     4751     3988       36      127    15336                           
+   Other mmap     1766       44     1248        0     6316                           
+   EGL mtrack    12432    12432        0        0    12432                           
+    GL mtrack    74692    74692        0        0    74692                           
+      Unknown      854      836        0    13644     1240                           
+        TOTAL   430397   179824    38920   183219   430397   246075   223260    22814
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    27100                          39060
+         Native Heap:    45968                          46660
+                Code:    38560                         231080
+               Stack:     2148                           2156
+            Graphics:    87124                          87124
+       Private Other:    17844
+              System:   211653
+             Unknown:                                   24184
+ 
+           TOTAL PSS:   430397            TOTAL RSS:   430264       TOTAL SWAP PSS:   183219
+ 
+ Objects
+               Views:     2274         ViewRootImpl:        4
+         AppContexts:       11           Activities:        3
+              Assets:       14        AssetManagers:        0
+       Local Binders:       88        Proxy Binders:       83
+       Parcel memory:       39         Parcel count:      157
+    Death Recipients:        3      OpenSSL Sockets:        6
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      685
+  PAGECACHE_OVERFLOW:      113          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       20             35         1/73/2  /data/user/0/com.yiyitech.powerex/databases/accs.db
+         4       56             50         3/75/4  /data/user/0/com.yiyitech.powerex/databases/MsgLogStore.db
+         4       32             51       694/76/5  /data/user/0/com.yiyitech.powerex/databases/sensorsdata
+         4       36             32        28/74/3  /data/user/0/com.yiyitech.powerex/databases/MessageStore.db
+

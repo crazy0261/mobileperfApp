@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+mobileperf.egg-info/PKG-INFO
+mobileperf.egg-info/SOURCES.txt
+mobileperf.egg-info/dependency_links.txt
+mobileperf.egg-info/requires.txt
+mobileperf.egg-info/top_level.txt

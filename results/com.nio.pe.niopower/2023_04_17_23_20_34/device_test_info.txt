@@ -1,0 +1,682 @@
+device serialnum:31669785680018L
+device model:vivo V2162A
+test package:com.nio.pe.niopower
+system version:11
+test package ver:Activity Resolver Table:
+  Schemes:
+      sa969f63e8:
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 48b733
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sa969f63e8"
+      nio:
+        ff8c8fe com.nio.pe.niopower/com.nio.paymentv2.ui.activity.NioPayContainerActivity filter c9f285f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "nio"
+          Authority: "app.pay.v2": -1
+          Path: "PatternMatcher{LITERAL: /com_pay}"
+        68b52ac com.nio.pe.niopower/com.nio.paymentsdk.ui.activity.NioPayActivity filter 98acb75
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "nio"
+          Authority: "app.pay": -1
+          Path: "PatternMatcher{LITERAL: /com_pay}"
+      peapp:
+        94fcf49 com.nio.pe.niopower/com.nio.lego.widget.web.CommWebViewActivity filter 399b04e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "peapp"
+          Authority: "web": -1
+          Path: "PatternMatcher{LITERAL: /webview}"
+      niopower:
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter b39baf0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /home}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 429e869
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "webview": -1
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 4de22ee
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "peservice": -1
+          Path: "PatternMatcher{LITERAL: /sourcebook}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 34d938f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /psclonedetail}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter a97961c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "sgcc": -1
+          Path: "PatternMatcher{LITERAL: /sgc}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 7efa225
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "sgc": -1
+          Path: "PatternMatcher{LITERAL: /charging_sgc}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 20d7ffa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "service": -1
+          Authority: "peservice": -1
+          Path: "PatternMatcher{LITERAL: /charge_route_planning}"
+          Path: "PatternMatcher{LITERAL: /routplanpgc}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 219d9ab
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "service": -1
+          Path: "PatternMatcher{LITERAL: /store_map}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter a95f808
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /orderdetail}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 19d3ba1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "pemap_charge_station": -1
+          Path: "PatternMatcher{LITERAL: /comment_list}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 7a3a1c6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "charging-pile": -1
+          Path: "PatternMatcher{LITERAL: /host}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 11a6587
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "service": -1
+          Path: "PatternMatcher{LITERAL: /power_swap_charge/order}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 968cb4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "pemappowerswap": -1
+          Path: "PatternMatcher{LITERAL: /orderdetail}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 630f0dd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /mapnav}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 4281452
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "service": -1
+          Path: "PatternMatcher{LITERAL: /charge_map_virtualspot}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 4add323
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /inIM}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 469c020
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "peservice": -1
+          Path: "PatternMatcher{LITERAL: /webcontainer}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 250bdd9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "community": -1
+          Path: "PatternMatcher{LITERAL: /topic}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 50f239e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "conversation": -1
+          Path: "PatternMatcher{LITERAL: /group_homepage}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter e807e7f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "community": -1
+          Path: "PatternMatcher{LITERAL: /postdetail}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 87abe4c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "post": -1
+          Path: "PatternMatcher{LITERAL: /comment/publish}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter d065e95
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "post": -1
+          Path: "PatternMatcher{LITERAL: /ugc/publish}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 8c5dbaa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "autopay": -1
+          Path: "PatternMatcher{LITERAL: /setting}"
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 4a8839b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /sourcedetail}"
+        8bb7338 com.nio.pe.niopower/com.nio.paymentv2.ui.activity.NioPayNoSecretSettingActivity filter a3b4f11
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "app.pay.nosecret.manager": -1
+          Path: "PatternMatcher{LITERAL: /com_pay}"
+        57e0876 com.nio.pe.niopower/.myinfo.view.MyCouponActivity filter e81be77
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "coupon": -1
+          Path: "PatternMatcher{LITERAL: /my_coupons}"
+        c508ae4 com.nio.pe.niopower/.myinfo.view.MobilePhoneLoginActivity filter 8f4cb4d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "usercenter": -1
+          Path: "PatternMatcher{LITERAL: /dologin}"
+        67c056f com.nio.pe.niopower/cn.com.weilaihui3.chargingpile.SGCActivity filter f50527c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "sgcc": -1
+          Path: "PatternMatcher{LITERAL: /sgc}"
+        63d1705 com.nio.pe.niopower/cn.com.weilaihui3.chargingpile.ChargingPileScanActivity filter 7e4835a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "public_spots": -1
+        ded898b com.nio.pe.niopower/.chargingmap.view.PoiDetailActivity filter a8e1a68
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "chargemap": -1
+          Path: "PatternMatcher{LITERAL: /inIM}"
+        efd1e81 com.nio.pe.niopower/.community.article.CommunityCreateActivity filter 9d77b26
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "post": -1
+          Path: "PatternMatcher{LITERAL: /comment/publish}"
+        efd1e81 com.nio.pe.niopower/.community.article.CommunityCreateActivity filter da93367
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "post": -1
+          Path: "PatternMatcher{LITERAL: /ugc/publish}"
+        75e7514 com.nio.pe.niopower/.community.article.NoteCreateActivity filter c5c21bd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "post": -1
+          Path: "PatternMatcher{LITERAL: /note/publish}"
+        ab023b2 com.nio.pe.niopower/.common.flutter.PEFlutterActivity filter 58b9f03
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "niopower"
+          Authority: "peservice": -1
+          Path: "PatternMatcher{LITERAL: /couponlist}"
+        637ce80 com.nio.pe.niopower/.commonbusiness.webview.NioPowerWebViewActivity filter dae1cb9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "niopower"
+          Authority: "peservice": -1
+          Path: "PatternMatcher{LITERAL: /webcontainer}"
+      nspay_alipay_result_activity:
+        ba3602 com.nio.pe.niopower/com.alipay.sdk.app.AlipayResultActivity filter 349cb13
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "nspay_alipay_result_activity"
+      nio_alipay_result_activity:
+        ba3602 com.nio.pe.niopower/com.alipay.sdk.app.AlipayResultActivity filter 5fd7150
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "nio_alipay_result_activity"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9f9926d com.nio.pe.niopower/.view.SplashActivity filter 72ebea2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        88af9d6 com.nio.pe.niopower/.commonbusiness.push.XiaomiMsgReceiver filter 4934b44
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED:
+        c0b6ba com.nio.pe.niopower/.commonbusiness.version.DownloadTaskReceiver filter 796a96b
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      com.xiaomi.mipush.ERROR:
+        88af9d6 com.nio.pe.niopower/.commonbusiness.push.XiaomiMsgReceiver filter e3df42d
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        894dd62 com.nio.pe.niopower/.commonbusiness.push.HuaweiPushReceiver filter ea24ef3
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        b94770a com.nio.pe.niopower/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter 637eb7b
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        894dd62 com.nio.pe.niopower/.commonbusiness.push.HuaweiPushReceiver filter ea24ef3
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK:
+        e676dae com.nio.pe.niopower/.commonbusiness.push.MeizuPushReceiver filter 808e74f
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.tencent.qcloud.tim.demo.thirdpush"
+      com.huawei.android.push.intent.RECEIVE:
+        894dd62 com.nio.pe.niopower/.commonbusiness.push.HuaweiPushReceiver filter ea24ef3
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+      com.meizu.c2dm.intent.RECEIVE:
+        e676dae com.nio.pe.niopower/.commonbusiness.push.MeizuPushReceiver filter 808e74f
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.tencent.qcloud.tim.demo.thirdpush"
+      com.vivo.pushclient.action.RECEIVE:
+        85ebedc com.nio.pe.niopower/.commonbusiness.push.VivoPushReceiver filter 8a67be5
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.meizu.cloud.pushservice.action.PUSH_SERVICE_START:
+        686ecc8 com.nio.pe.niopower/com.meizu.cloud.pushsdk.SystemReceiver filter e47f161
+          Action: "com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"
+          Category: "android.intent.category.DEFAULT"
+      com.meizu.flyme.push.intent.MESSAGE:
+        e676dae com.nio.pe.niopower/.commonbusiness.push.MeizuPushReceiver filter 808e74f
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.tencent.qcloud.tim.demo.thirdpush"
+      com.meizu.c2dm.intent.REGISTRATION:
+        e676dae com.nio.pe.niopower/.commonbusiness.push.MeizuPushReceiver filter 808e74f
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.tencent.qcloud.tim.demo.thirdpush"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        c0b6ba com.nio.pe.niopower/.commonbusiness.version.DownloadTaskReceiver filter 796a96b
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"
+      com.xiaomi.push.PING_TIMER:
+        bb0ed98 com.nio.pe.niopower/com.xiaomi.push.service.receivers.PingReceiver filter e49a9f1
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        88af9d6 com.nio.pe.niopower/.commonbusiness.push.XiaomiMsgReceiver filter ccfc457
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.meizu.flyme.push.intent.REGISTER.FEEDBACK:
+        e676dae com.nio.pe.niopower/.commonbusiness.push.MeizuPushReceiver filter 808e74f
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.tencent.qcloud.tim.demo.thirdpush"
+      com.huawei.android.push.intent.CLICK:
+        21bd7b0 com.nio.pe.niopower/.commonbusiness.push.HuaweiNotifyReceiver filter 3b2a629
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+      com.huawei.intent.action.PUSH_STATE:
+        21bd7b0 com.nio.pe.niopower/.commonbusiness.push.HuaweiNotifyReceiver filter 3b2a629
+          Action: "com.huawei.android.push.intent.CLICK"
+          Action: "com.huawei.intent.action.PUSH_STATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.huawei.push.msg.NOTIFY_MSG:
+        2338486 com.nio.pe.niopower/com.huawei.hms.support.api.push.service.HmsMsgService filter 7f47147
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.huawei.push.msg.PASSBY_MSG:
+        2338486 com.nio.pe.niopower/com.huawei.hms.support.api.push.service.HmsMsgService filter 7f47147
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+
+Permissions:
+  Permission [com.nio.pe.niopower.permission.MIPUSH_RECEIVE] (1820d74):
+    sourcePackage=com.nio.pe.niopower
+    uid=10383 gids=null type=0 prot=signature
+    perm=Permission{1961 com.nio.pe.niopower.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.nio.pe.niopower.permission.C2D_MESSAGE] (31429d):
+    sourcePackage=com.nio.pe.niopower
+    uid=10383 gids=null type=0 prot=signature
+    perm=Permission{9cc8c86 com.nio.pe.niopower.permission.C2D_MESSAGE}
+
+Permissions:
+  Permission [com.nio.pe.niopower.permission.PROCESS_PUSH_MSG] (9b36312):
+    sourcePackage=com.nio.pe.niopower
+    uid=10383 gids=null type=0 prot=signature|privileged
+    perm=Permission{48cd947 com.nio.pe.niopower.permission.PROCESS_PUSH_MSG}
+
+Permissions:
+  Permission [com.nio.pe.niopower.push.permission.MESSAGE] (b7cdae3):
+    sourcePackage=com.nio.pe.niopower
+    uid=10383 gids=null type=0 prot=signature
+    perm=Permission{e165574 com.nio.pe.niopower.push.permission.MESSAGE}
+
+Registered ContentProviders:
+  com.nio.pe.niopower/com.tencent.mid.api.MidProvider:
+    Provider{943ea9d com.nio.pe.niopower/com.tencent.mid.api.MidProvider}
+  com.nio.pe.niopower/.community.PowerFileProvider:
+    Provider{5d4eb12 com.nio.pe.niopower/.community.PowerFileProvider}
+  com.nio.pe.niopower/.myinfo.PowerFileProvider:
+    Provider{d33c2e3 com.nio.pe.niopower/.myinfo.PowerFileProvider}
+  com.nio.pe.niopower/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider:
+    Provider{2fd54e0 com.nio.pe.niopower/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+  com.nio.pe.niopower/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider:
+    Provider{af99399 com.nio.pe.niopower/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+  com.nio.pe.niopower/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{892a65e com.nio.pe.niopower/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.nio.pe.niopower/androidx.core.content.FileProvider:
+    Provider{fd5aa3f com.nio.pe.niopower/androidx.core.content.FileProvider}
+  com.nio.pe.niopower/com.huawei.hms.update.provider.UpdateProvider:
+    Provider{392df0c com.nio.pe.niopower/com.huawei.hms.update.provider.UpdateProvider}
+  com.nio.pe.niopower/com.tencent.bugly.beta.utils.BuglyFileProvider:
+    Provider{4c6d055 com.nio.pe.niopower/com.tencent.bugly.beta.utils.BuglyFileProvider}
+  com.nio.pe.niopower/com.jaychang.st.ContextProvider:
+    Provider{2deca6a com.nio.pe.niopower/com.jaychang.st.ContextProvider}
+  com.nio.pe.niopower/com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider:
+    Provider{284ab5b com.nio.pe.niopower/com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider}
+
+ContentProvider Authorities:
+  [com.nio.pe.niopower.TENCENT.MID.V4]:
+    Provider{943ea9d com.nio.pe.niopower/com.tencent.mid.api.MidProvider}
+      applicationInfo=ApplicationInfo{20d811b com.nio.pe.niopower}
+  [com.nio.pe.niopower.updateSdk.fileProvider]:
+    Provider{2fd54e0 com.nio.pe.niopower/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+      applicationInfo=ApplicationInfo{2f862b8 com.nio.pe.niopower}
+  [com.nio.pe.niopower.SensorsDataContentProvider]:
+    Provider{af99399 com.nio.pe.niopower/com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider}
+      applicationInfo=ApplicationInfo{4264891 com.nio.pe.niopower}
+  [com.nio.pe.niopower.lifecycle-process]:
+    Provider{892a65e com.nio.pe.niopower/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{f8f43f6 com.nio.pe.niopower}
+  [com.nio.pe.niopower.bnav_provider]:
+    Provider{fd5aa3f com.nio.pe.niopower/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{cf913f7 com.nio.pe.niopower}
+  [com.nio.pe.niopower.simpletextprovider]:
+    Provider{2deca6a com.nio.pe.niopower/com.jaychang.st.ContextProvider}
+      applicationInfo=ApplicationInfo{22cf264 com.nio.pe.niopower}
+  [com.nio.pe.niopower.hms.update.provider]:
+    Provider{392df0c com.nio.pe.niopower/com.huawei.hms.update.provider.UpdateProvider}
+      applicationInfo=ApplicationInfo{c55dccd com.nio.pe.niopower}
+  [com.nio.pe.niopower.apm]:
+    Provider{284ab5b com.nio.pe.niopower/com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider}
+      applicationInfo=ApplicationInfo{d63a982 com.nio.pe.niopower}
+  [com.nio.pe.niopower.fileprovider]:
+    Provider{d33c2e3 com.nio.pe.niopower/.myinfo.PowerFileProvider}
+      applicationInfo=ApplicationInfo{da0f893 com.nio.pe.niopower}
+  [com.nio.pe.niopower.fileProvider]:
+    Provider{4c6d055 com.nio.pe.niopower/com.tencent.bugly.beta.utils.BuglyFileProvider}
+      applicationInfo=ApplicationInfo{df8d0d0 com.nio.pe.niopower}
+
+Key Set Manager:
+  [com.nio.pe.niopower]
+      Signing KeySets: 154
+
+Packages:
+  Package [com.nio.pe.niopower] (f63630e):
+    userId=10383
+    pkg=Package{c1d7a84 com.nio.pe.niopower}
+    codePath=/data/app/~~sEq_Qlm93CVd9BlU_fcs2g==/com.nio.pe.niopower-ItUG2fu09Ypeavsb-vhWsg==
+    resourcePath=/data/app/~~sEq_Qlm93CVd9BlU_fcs2g==/com.nio.pe.niopower-ItUG2fu09Ypeavsb-vhWsg==
+    legacyNativeLibraryDir=/data/app/~~sEq_Qlm93CVd9BlU_fcs2g==/com.nio.pe.niopower-ItUG2fu09Ypeavsb-vhWsg==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=40000 minSdk=24 targetSdk=28
+    versionName=4.0.0
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{c1d7a84 com.nio.pe.niopower}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.media.action.IMAGE_CAPTURE }]
+    dataDir=/data/user/0/com.nio.pe.niopower
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2023-04-17 23:15:13
+    firstInstallTime=2023-04-17 23:15:14
+    lastUpdateTime=2023-04-17 23:15:14
+    installerPackageName=com.bbk.appstore
+    signatures=PackageSignatures{53a12f version:3, signatures:[196ba4d5], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.nio.pe.niopower.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+      com.nio.pe.niopower.permission.PROCESS_PUSH_MSG: prot=signature|privileged, INSTALLED
+      com.nio.pe.niopower.push.permission.MESSAGE: prot=signature, INSTALLED
+      com.nio.pe.niopower.permission.C2D_MESSAGE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CALL_PHONE
+      android.permission.READ_LOGS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.CAMERA
+      android.permission.GET_TASKS
+      com.nio.pe.niopower.permission.MIPUSH_RECEIVE
+      com.nio.pe.niopower.permission.PROCESS_PUSH_MSG
+      com.meizu.flyme.push.permission.RECEIVE
+      com.nio.pe.niopower.push.permission.MESSAGE
+      com.meizu.c2dm.permission.RECEIVE
+      com.nio.pe.niopower.permission.C2D_MESSAGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.RECORD_AUDIO
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FLASHLIGHT
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_USER_PRESENT
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.WRITE_SETTINGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.asus.msa.SupplementaryDID.ACCESS
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_GPS
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.nio.pe.niopower.permission.MIPUSH_RECEIVE: granted=true
+      com.nio.pe.niopower.permission.C2D_MESSAGE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.nio.pe.niopower.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.nio.pe.niopower.push.permission.MESSAGE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=162115 installed=true hidden=false vHidden=1 suspended=false distractionFlags=0 stopped=true notLaunched=false enabled=0 instant=false virtual=false
+      lastDisabledCaller: com.bbk.appstore
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CALL_PHONE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.vivo.upnpserver:
+      com.nio.pe.niopower
+    com.vivo.space:
+      com.nio.pe.niopower
+    com.autonavi.minimap:
+      com.nio.pe.niopower
+    com.jingdong.app.mall:
+      com.nio.pe.niopower
+    com.sina.weibo:
+      com.nio.pe.niopower
+    com.ss.android.article.news:
+      com.nio.pe.niopower
+    com.ximalaya.ting.android:
+      com.nio.pe.niopower
+    com.xingin.xhs:
+      com.nio.pe.niopower
+    com.zhihu.android:
+      com.nio.pe.niopower
+    com.xunmeng.pinduoduo:
+      com.nio.pe.niopower
+    com.tencent.mm:
+      com.nio.pe.niopower
+  queryable via interaction:
+    User 0:
+      [com.vivo.smartmultiwindow,com.vivo.nightpearl,com.vivo.fingerprintengineer,com.vivo.networkstate,com.bbk.SuperPowerSave,com.vivo.multinlp,com.vivo.daemonService,com.vivo.voicewakeup,com.android.dynsystem,com.android.providers.settings,com.vivo.setupwizard,com.android.dreams.alwaysondisplay,com.vivo.vdfs,com.vivo.vtouch,com.vivo.gamecube,com.vivo.gamewatch,com.android.inputdevices,android,com.android.wallpaperbackup,com.mediatek.atci.service,com.mobile.cos.iroaming,com.iqoo.powersaving,com.vivo.floatingball,com.vivo.smartshot,com.vivo.vivokaraoke,com.vivo.vms,com.vivo.faceui,com.vivo.audiofx,com.iqoo.aftersale.engineermode,com.android.location.fused,com.vivo.contentcatcher,com.vivo.vibrator4d,com.vivo.fingerprintui,com.mediatek.location.lppe.main,com.vivo.minscreen,com.bbk.facewake,com.android.settings,com.vivo.fingerprint,com.mediatek.voicecommand,com.vivo.fuelsummary,com.android.localtransport,com.vivo.smartunlock,com.vivo.faceunlock,com.vivo.abe,com.mediatek,com.wapi.wapicertmanager,com.iqoo.user.engineermode,com.android.bbklog,com.vivo.epm,com.android.server.telecom,com.vivo.permissionmanager,com.android.networkstack.inprocess,com.vivo.wifiengineermode,com.android.keychain,com.android.BBKCrontab,com.vivo.appfilter,com.vivo.sps,com.vivo.globalanimation,com.android.networkstack.tethering.inprocess,com.vivo.upslide,com.vivo.doubleinstance,com.vivo.aiengine,com.vivo.assistant,com.vivo.fuzzylocationmanager,com.vivo.bsptest,com.vivo.car.networking,com.vivo.pem,com.vivo.connbase]:
+        com.nio.pe.niopower
+      com.android.providers.media.module:
+        com.nio.pe.niopower
+      com.sohu.inputmethod.sogou.vivo:
+        com.nio.pe.niopower
+      com.vivo.pushservice:
+        com.nio.pe.niopower
+      [com.google.android.gsf,com.google.android.gms]:
+        com.nio.pe.niopower
+      com.google.android.webview:
+        com.nio.pe.niopower
+      com.nio.pe.niopower:
+        com.google.android.webview
+
+Package Changes:
+  Sequence number=24
+  User 0:
+    seq=7, package=com.google.android.gms
+    seq=8, package=com.yiyitech.powerExchangeEamApp
+    seq=11, package=com.eg.android.AlipayGphone
+    seq=12, package=com.vivo.globalsearch
+    seq=13, package=com.tencent.mtt
+    seq=14, package=com.ximalaya.ting.android
+    seq=15, package=com.vivo.sosappwidget
+    seq=17, package=com.android.shell
+    seq=21, package=com.nio.pe.niopower
+    seq=22, package=com.android.settings
+    seq=23, package=com.yiyitech.powerex
+
+
+Dexopt state:
+  [com.nio.pe.niopower]
+    path: /data/app/~~sEq_Qlm93CVd9BlU_fcs2g==/com.nio.pe.niopower-ItUG2fu09Ypeavsb-vhWsg==/base.apk
+      arm64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.nio.pe.niopower]
+     base.apk - 4747
+test cost time::0.18h
