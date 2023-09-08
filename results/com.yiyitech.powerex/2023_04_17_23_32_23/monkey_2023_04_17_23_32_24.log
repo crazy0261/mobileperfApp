@@ -1,0 +1,2222 @@
+bash arg: -p
+bash arg: com.yiyitech.powerex
+bash arg: -v
+bash arg: -v
+bash arg: -v
+bash arg: -s
+bash arg: 1000
+bash arg: --ignore-crashes
+bash arg: --ignore-timeouts
+bash arg: --ignore-security-exceptions
+bash arg: --kill-process-after-error
+bash arg: --pct-appswitch
+bash arg: 20
+bash arg: --pct-touch
+bash arg: 40
+bash arg: --pct-motion
+bash arg: 10
+bash arg: --pct-trackball
+bash arg: 0
+bash arg: --pct-anyevent
+bash arg: 10
+bash arg: --pct-flip
+bash arg: 0
+bash arg: --pct-pinchzoom
+bash arg: 0
+bash arg: --throttle
+bash arg: 1000
+bash arg: 1200000000
+:Monkey: seed=1000 count=1200000000
+:AllowPackage: com.yiyitech.powerex
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.gallery3d.vivo.GalleryTabActivity (from package com.vivo.gallery)
+//   - NOT USING main activity com.android.bbkmusic.WidgetToTrackActivity (from package com.android.bbkmusic)
+//   - NOT USING main activity com.android.activity.ReclistActivity (from package com.android.bbksoundrecorder)
+//   - NOT USING main activity com.android.contacts.DialtactsContactsEntryActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.dialer.TwelveKeyDialer (from package com.android.dialer)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.bbk.calendar.MainActivity (from package com.bbk.calendar)
+//   - NOT USING main activity com.bbk.theme.Theme (from package com.bbk.theme)
+//   - NOT USING main activity com.chaozh.iReader.ui.activity.WelcomeActivity (from package com.chaozh.iReader)
+//   - NOT USING main activity com.vivo.health.main.activity.GuideActivity (from package com.vivo.health)
+//   - NOT USING main activity com.achievo.vipshop.activity.LodingActivity (from package com.achievo.vipshop)
+//   - NOT USING main activity com.movitech.eop.login.Splash2Activity (from package com.sammbo.im)
+//   - NOT USING main activity com.yxcorp.gifshow.HomeActivity (from package com.smile.gifmaker)
+//   - NOT USING main activity me.ele.Launcher (from package me.ele)
+//   - NOT USING main activity com.android.BBKClock.Timer (from package com.android.BBKClock)
+//   - NOT USING main activity com.android.VideoPlayer.VideoPlayer (from package com.android.VideoPlayer)
+//   - NOT USING main activity com.android.bbk.lockscreen3.LockScreenActivity (from package com.android.bbk.lockscreen3)
+//   - NOT USING main activity com.android.bbkcalculator.Calculator (from package com.android.bbkcalculator)
+//   - NOT USING main activity com.android.camera.CameraActivity (from package com.android.camera)
+//   - NOT USING main activity com.android.filemanager.FileManagerActivity (from package com.android.filemanager)
+//   - NOT USING main activity com.android.notes.Notes (from package com.android.notes)
+//   - NOT USING main activity com.bbk.appstore.ui.AppStore (from package com.bbk.appstore)
+//   - NOT USING main activity com.bbk.cloud.activities.BBKCloudHomeScreen (from package com.bbk.cloud)
+//   - NOT USING main activity com.bbk.iqoo.feedback.ui.activities.SplashPrivacyActivity (from package com.bbk.iqoo.feedback)
+//   - NOT USING main activity com.iqoo.secure.MainActivity (from package com.iqoo.secure)
+//   - NOT USING main activity com.vivo.Tips.MainActivity (from package com.vivo.Tips)
+//   - NOT USING main activity com.vivo.agent.view.activities.JoviHomeNewActivity (from package com.vivo.agent)
+//   - NOT USING main activity com.vivo.browser.BrowserActivity (from package com.vivo.browser)
+//   - NOT USING main activity com.vivo.childrenmode.activity.ChildHomeActivity (from package com.vivo.childrenmode)
+//   - NOT USING main activity com.vivo.compass.CalibrationActivity (from package com.vivo.compass)
+//   - NOT USING main activity com.vivo.easyshare.activity.SplashScreenActivity (from package com.vivo.easyshare)
+//   - NOT USING main activity com.vivo.email.activity.Welcome (from package com.vivo.email)
+//   - NOT USING main activity com.vivo.game.ui.LogoActivity (from package com.vivo.game)
+//   - NOT USING main activity com.vivo.newsreader.LaunchActivity (from package com.vivo.newsreader)
+//   - NOT USING main activity com.vivo.space.ui.LogoActivity (from package com.vivo.space)
+//   - NOT USING main activity com.vivo.symmetry.launch.SplashActivity (from package com.vivo.symmetry)
+//   - NOT USING main activity com.vivo.translator.view.activity.MainActivity (from package com.vivo.translator)
+//   - NOT USING main activity com.vivo.interaction.minscreen.activity.InteractionActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.wallet.StartPageActivity (from package com.vivo.wallet)
+//   - NOT USING main activity com.vivo.weather.WeatherMain (from package com.vivo.weather)
+//   - NOT USING main activity com.autonavi.map.activity.SplashActivity (from package com.autonavi.minimap)
+//   - NOT USING main activity com.baidu.searchbox.SplashActivity (from package com.baidu.searchbox)
+//   - NOT USING main activity com.dragon.read.pages.splash.SplashActivity (from package com.dragon.read)
+//   - NOT USING main activity com.eg.android.AlipayGphone.AlipayLogin (from package com.eg.android.AlipayGphone)
+//   - NOT USING main activity com.geega.livan.livan.MainActivity (from package com.geega.livan.livan)
+//   - NOT USING main activity com.jingdong.app.mall.main.MainActivity (from package com.jingdong.app.mall)
+//   - NOT USING main activity com.kxk.ugc.video.main.MainActivity (from package com.kaixinkan.ugc.video)
+//   - NOT USING main activity com.nio.pe.niopower.view.SplashActivity (from package com.nio.pe.niopower)
+//   - NOT USING main activity com.evs.echarge.dev.ui.advertisement.SplashActivity (from package com.sgcc.evs.echarge)
+//   - NOT USING main activity com.sina.weibo.SplashActivity (from package com.sina.weibo)
+//   - NOT USING main activity com.ss.android.article.news.activity.MainActivity (from package com.ss.android.article.news)
+//   - NOT USING main activity com.taobao.fleamarket.home.activity.InitActivity (from package com.taobao.idlefish)
+//   - NOT USING main activity com.taobao.tao.welcome.Welcome (from package com.taobao.taobao)
+//   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+//   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+//   - NOT USING main activity com.tencent.news.activity.SplashActivity (from package com.tencent.news)
+//   - NOT USING main activity com.tencent.qqlive.ona.activity.SplashHomeActivity (from package com.tencent.qqlive)
+//   - NOT USING main activity com.tencent.wework.launch.LaunchSplashActivity (from package com.tencent.wework)
+//   - NOT USING main activity com.vivo.minigamecenter.page.splash.SplashActivity (from package com.vivo.minigamecenter)
+//   - NOT USING main activity com.vivo.vhome.ui.VHomeActivity (from package com.vivo.vhome)
+//   - NOT USING main activity com.wuba.home.activity.HomeActivity (from package com.wuba)
+//   - NOT USING main activity com.ximalaya.ting.android.host.activity.MainActivity (from package com.ximalaya.ting.android)
+//   - NOT USING main activity com.xingin.xhs.index.v2.IndexActivityV2 (from package com.xingin.xhs)
+//   - NOT USING main activity com.xunmeng.pinduoduo.ui.activity.MainFrameActivity (from package com.xunmeng.pinduoduo)
+//   - NOT USING main activity com.yiyitech.powerExchangeEamApp.MainActivity (from package com.yiyitech.powerExchangeEamApp)
+//   + Using main activity com.yiyitech.powerex.common.agreement.AgreementActivity (from package com.yiyitech.powerex)
+//   - NOT USING main activity com.zhihu.android.app.ui.activity.LauncherActivity (from package com.zhihu.android)
+//   - NOT USING main activity ctrip.business.splash.CtripSplashActivity (from package ctrip.android.view)
+//   - NOT USING main activity tv.danmaku.bili.MainActivityV2 (from package tv.danmaku.bili)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.bbk.SuperPowerSave.SuperPowerSaveActivity (from package com.bbk.SuperPowerSave)
+//   - NOT USING main activity com.bbk.launcher2.Launcher (from package com.bbk.launcher2)
+//   - NOT USING main activity com.bbk.virtualsystem.VirtualSystemLauncher (from package com.bbk.launcher2)
+//   - NOT USING main activity com.bbk.scene.launcher.theme.SceneLauncherThemeMainActivity (from package com.bbk.scene.launcher.theme)
+//   - NOT USING main activity com.iqoo.user.engineermode.EngineerMode (from package com.iqoo.user.engineermode)
+//   - NOT USING main activity com.vivo.childrenmode.activity.MainActivity (from package com.vivo.childrenmode)
+//   - NOT USING main activity com.vivo.systemui.statusbar.notification.settings.StatusbarSettingActivity (from package com.android.systemui)
+//   - NOT USING main activity com.vivo.systemui.statusbar.notification.settings.channels.NotificationSettingsActivity (from package com.android.systemui)
+//   - NOT USING main activity com.vivo.keyguard.views.themes.nature.iconset.IconSettings (from package com.android.systemui)
+//   - NOT USING main activity com.android.keyguard.vivo.VivoConfirmActivity (from package com.android.systemui)
+//   - NOT USING main activity com.android.keyguard.vivo.VivoFaceRecommendDialog (from package com.android.systemui)
+//   - NOT USING main activity com.vivo.carlauncher.activity.CarLauncherActivity (from package com.vivo.carlauncher)
+//   - NOT USING main activity com.vivo.desktopstickers.MainActivity (from package com.vivo.desktopstickers)
+//   - NOT USING main activity com.vivo.smartshot.ui.TestSmartShotActivity (from package com.vivo.smartshot)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationSettingsActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.AboutHomeIndicatorActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.FullScreenDoubleSlideActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.GestureOrderActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationGestureModeActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.GestureStyleActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationStyleActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationBarPositionActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.SwitchAppActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationGestureLayoutActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.NavigationGestureOrderActivity (from package com.vivo.upslide)
+//   - NOT USING main activity com.vivo.upslide.navigation.settings.settings.SideSlideSensibilityActivity (from package com.vivo.upslide)
+// Seeded: 1000
+// Event percentages:
+//   0: 40.0%
+//   1: 10.0%
+//   2: -0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 11.904762%
+//   7: 7.142857%
+//   8: 0.95238096%
+//   9: 20.0%
+//   10: -0.0%
+//   11: 10.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(876.0,1924.0)
+:Sending Touch (ACTION_UP): 0:(876.8796,1903.9431)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(450.0,1259.0)
+:Sending Touch (ACTION_MOVE): 0:(437.43774,1261.5883)
+:Sending Touch (ACTION_MOVE): 0:(422.41763,1261.6316)
+:Sending Touch (ACTION_MOVE): 0:(400.17487,1263.4142)
+:Sending Touch (ACTION_UP): 0:(385.7934,1267.2007)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/.biz.hometab.HomePageActivity } in package com.yiyitech.powerex
+// activityResuming(com.yiyitech.powerex)
+:Sending Touch (ACTION_DOWN): 0:(302.0,449.0)
+:Sending Touch (ACTION_UP): 0:(289.05524,454.20135)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(552.0,375.0)
+:Sending Touch (ACTION_UP): 0:(571.3758,377.57867)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(882.0,2031.0)
+:Sending Touch (ACTION_UP): 0:(880.9099,2021.6718)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/com.yiyitech.module.login.page.LoginIdentifyCodeSecondActivity } in package com.yiyitech.powerex
+:Sending Touch (ACTION_DOWN): 0:(578.0,1027.0)
+:Sending Touch (ACTION_UP): 0:(580.5566,1030.0394)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(520.0,599.0)
+:Sending Touch (ACTION_UP): 0:(514.1241,606.88184)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(674.0,451.0)
+:Sending Touch (ACTION_UP): 0:(671.31067,460.7578)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(635.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(626.7522,1739.0342)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(41.0,513.0)
+:Sending Touch (ACTION_UP): 0:(59.851627,521.65015)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1044.0,49.0)
+:Sending Touch (ACTION_UP): 0:(1043.971,49.395058)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(939.0,795.0)
+:Sending Touch (ACTION_UP): 0:(940.5485,786.60913)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(637.0,1377.0)
+:Sending Touch (ACTION_UP): 0:(635.7937,1365.6469)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(5.0,1738.0)
+:Sending Touch (ACTION_UP): 0:(15.715435,1737.2615)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(376.0,855.0)
+:Sending Touch (ACTION_UP): 0:(382.18683,865.45874)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(696.0,25.0)
+:Sending Touch (ACTION_UP): 0:(689.09515,43.174465)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(249.0,904.0)
+:Sending Touch (ACTION_UP): 0:(251.96857,906.8418)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(888.0,480.0)
+:Sending Touch (ACTION_MOVE): 0:(889.8569,469.1785)
+:Sending Touch (ACTION_MOVE): 0:(892.2131,468.92856)
+:Sending Touch (ACTION_MOVE): 0:(894.7812,456.26306)
+:Sending Touch (ACTION_MOVE): 0:(896.14233,447.314)
+:Sending Touch (ACTION_MOVE): 0:(897.0447,440.30334)
+:Sending Touch (ACTION_MOVE): 0:(898.99316,437.1211)
+:Sending Touch (ACTION_MOVE): 0:(900.8774,424.17554)
+:Sending Touch (ACTION_UP): 0:(902.7439,419.9072)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1059.0,1232.0)
+:Sending Touch (ACTION_UP): 0:(1061.2198,1238.0178)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(954.0,281.0)
+:Sending Touch (ACTION_MOVE): 0:(966.4132,300.19543)
+:Sending Touch (ACTION_UP): 0:(969.7832,306.00037)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 127    // KEYCODE_MEDIA_PAUSE
+:Sending Key (ACTION_UP): 127    // KEYCODE_MEDIA_PAUSE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(671.0,1739.0)
+:Sending Touch (ACTION_UP): 0:(662.4803,1730.6501)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,1733.0)
+:Sending Touch (ACTION_UP): 0:(524.3137,1743.142)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(898.0,870.0)
+:Sending Touch (ACTION_UP): 0:(894.755,870.22784)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(61.0,1822.0)
+:Sending Touch (ACTION_UP): 0:(55.287716,1837.2704)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,1907.0)
+:Sending Touch (ACTION_UP): 0:(949.98895,1908.5167)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 287    // KEYCODE_THUMBS_DOWN
+:Sending Key (ACTION_UP): 287    // KEYCODE_THUMBS_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(579.0,2315.0)
+:Sending Touch (ACTION_UP): 0:(567.10364,2308.7073)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(286.0,1070.0)
+:Sending Touch (ACTION_UP): 0:(297.47037,1070.6924)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1637.0)
+:Sending Touch (ACTION_UP): 0:(998.3605,1650.6464)
+//[calendar_time:2023-04-17 23:33:12.052  system_uptime:32011756]
+// Sending event #100
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:33:13.056  system_uptime:32012757]
+// Sending event #100
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(632.0,818.0)
+:Sending Touch (ACTION_UP): 0:(641.25336,812.1927)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 114    // KEYCODE_CTRL_RIGHT
+:Sending Key (ACTION_UP): 114    // KEYCODE_CTRL_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(597.0,1122.0)
+:Sending Touch (ACTION_UP): 0:(587.98315,1122.415)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(564.0,1178.0)
+:Sending Touch (ACTION_UP): 0:(562.41785,1182.9504)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1068.0,488.0)
+:Sending Touch (ACTION_UP): 0:(1061.7881,493.033)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(841.0,298.0)
+:Sending Touch (ACTION_MOVE): 0:(843.3633,312.01465)
+:Sending Touch (ACTION_MOVE): 0:(846.48724,334.58456)
+:Sending Touch (ACTION_UP): 0:(866.63153,337.27124)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 1000 milliseconds
+// activityResuming(com.yiyitech.powerex)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(660.0,2059.0)
+:Sending Touch (ACTION_UP): 0:(659.48505,2068.1396)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/com.yiyitech.module.login.page.LoginIdentifyCodeSecondActivity } in package com.yiyitech.powerex
+:Sending Touch (ACTION_DOWN): 0:(504.0,1897.0)
+:Sending Touch (ACTION_UP): 0:(506.51978,1898.5924)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(445.0,2283.0)
+:Sending Touch (ACTION_MOVE): 0:(447.21432,2298.2556)
+:Sending Touch (ACTION_MOVE): 0:(448.20667,2312.7388)
+:Sending Touch (ACTION_MOVE): 0:(450.3604,2316.6602)
+:Sending Touch (ACTION_MOVE): 0:(450.36258,2320.0)
+:Sending Touch (ACTION_MOVE): 0:(451.2191,2320.0)
+:Sending Touch (ACTION_MOVE): 0:(452.3294,2320.0)
+:Sending Touch (ACTION_UP): 0:(454.53793,2320.0)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(275.0,2100.0)
+:Sending Touch (ACTION_UP): 0:(268.0714,2100.8337)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(618.0,1503.0)
+:Sending Touch (ACTION_UP): 0:(630.4775,1500.5948)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 15    // KEYCODE_8
+:Sending Key (ACTION_UP): 15    // KEYCODE_8
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(551.0,2128.0)
+:Sending Touch (ACTION_MOVE): 0:(541.90454,2120.321)
+:Sending Touch (ACTION_MOVE): 0:(534.2339,2112.1646)
+:Sending Touch (ACTION_MOVE): 0:(524.85565,2099.318)
+:Sending Touch (ACTION_MOVE): 0:(517.63104,2093.3638)
+:Sending Touch (ACTION_MOVE): 0:(514.82227,2075.315)
+:Sending Touch (ACTION_MOVE): 0:(507.24927,2053.2896)
+:Sending Touch (ACTION_MOVE): 0:(497.11984,2044.7203)
+:Sending Touch (ACTION_MOVE): 0:(496.48782,2026.1514)
+:Sending Touch (ACTION_UP): 0:(490.84827,2013.6693)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+:Sending Key (ACTION_UP): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,208.0)
+:Sending Touch (ACTION_UP): 0:(160.1779,221.54648)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yiyitech.powerex)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(81.0,1168.0)
+:Sending Touch (ACTION_MOVE): 0:(84.65123,1177.984)
+:Sending Touch (ACTION_MOVE): 0:(88.623726,1180.178)
+:Sending Touch (ACTION_UP): 0:(92.537834,1181.6259)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,575.0)
+:Sending Touch (ACTION_UP): 0:(374.3907,562.3187)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(414.0,2278.0)
+:Sending Touch (ACTION_UP): 0:(413.8021,2275.5425)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(484.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(474.01337,1012.8922)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 67    // KEYCODE_DEL
+:Sending Key (ACTION_UP): 67    // KEYCODE_DEL
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 100    // KEYCODE_BUTTON_Y
+:Sending Key (ACTION_UP): 100    // KEYCODE_BUTTON_Y
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(916.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(923.2451,1402.9126)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 45    // KEYCODE_Q
+:Sending Key (ACTION_UP): 45    // KEYCODE_Q
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(240.0,1423.0)
+:Sending Touch (ACTION_UP): 0:(251.82545,1409.2811)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(732.0,307.0)
+:Sending Touch (ACTION_UP): 0:(734.5957,299.09866)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(805.0,111.0)
+:Sending Touch (ACTION_UP): 0:(797.0437,113.009796)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(283.0,1486.0)
+:Sending Touch (ACTION_UP): 0:(285.72287,1500.6301)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/.biz.hometab.HomePageActivity } in package com.yiyitech.powerex
+// activityResuming(com.yiyitech.powerex)
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1814.0)
+:Sending Touch (ACTION_MOVE): 0:(988.49097,1813.5613)
+:Sending Touch (ACTION_MOVE): 0:(983.81067,1808.6252)
+:Sending Touch (ACTION_MOVE): 0:(973.93286,1804.5527)
+:Sending Touch (ACTION_MOVE): 0:(970.1462,1798.8657)
+:Sending Touch (ACTION_UP): 0:(956.7735,1789.3418)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(351.0,2147.0)
+:Sending Touch (ACTION_MOVE): 0:(347.41745,2134.7522)
+:Sending Touch (ACTION_MOVE): 0:(344.91238,2132.1252)
+:Sending Touch (ACTION_MOVE): 0:(343.28323,2121.9888)
+:Sending Touch (ACTION_MOVE): 0:(342.53122,2115.3538)
+:Sending Touch (ACTION_MOVE): 0:(339.39267,2110.8618)
+//[calendar_time:2023-04-17 23:33:54.013  system_uptime:32053714]
+// Sending event #200
+:Sending Touch (ACTION_MOVE): 0:(339.2776,2093.893)
+:Sending Touch (ACTION_UP): 0:(336.13364,2086.1174)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(780.0,178.0)
+:Sending Touch (ACTION_UP): 0:(769.49365,162.04774)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 125    // KEYCODE_FORWARD
+:Sending Key (ACTION_UP): 125    // KEYCODE_FORWARD
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(483.0,593.0)
+:Sending Touch (ACTION_UP): 0:(480.348,599.09955)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(289.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(276.32843,1823.1648)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(104.0,746.0)
+:Sending Touch (ACTION_UP): 0:(103.75793,750.46173)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(176.0,2258.0)
+:Sending Touch (ACTION_UP): 0:(169.8728,2244.028)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1026.0,750.0)
+:Sending Touch (ACTION_UP): 0:(1049.4053,767.19244)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(499.0,1778.0)
+:Sending Touch (ACTION_UP): 0:(497.14368,1773.8884)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(211.0,246.0)
+:Sending Touch (ACTION_UP): 0:(209.72958,244.87354)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(595.0,1313.0)
+:Sending Touch (ACTION_UP): 0:(591.8541,1330.228)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(579.0,400.0)
+:Sending Touch (ACTION_UP): 0:(577.6276,398.51178)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(292.0,609.0)
+:Sending Touch (ACTION_MOVE): 0:(283.73343,612.70526)
+:Sending Touch (ACTION_MOVE): 0:(281.34677,620.30664)
+:Sending Touch (ACTION_MOVE): 0:(274.9604,628.5717)
+:Sending Touch (ACTION_MOVE): 0:(267.0648,640.5098)
+:Sending Touch (ACTION_MOVE): 0:(263.8712,644.8973)
+:Sending Touch (ACTION_MOVE): 0:(261.96164,657.5476)
+:Sending Touch (ACTION_MOVE): 0:(253.39374,666.4769)
+:Sending Touch (ACTION_UP): 0:(248.20012,674.3285)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(484.0,156.0)
+:Sending Touch (ACTION_MOVE): 0:(484.79565,158.70392)
+:Sending Touch (ACTION_MOVE): 0:(506.29007,163.70886)
+:Sending Touch (ACTION_MOVE): 0:(521.8618,165.68126)
+:Sending Touch (ACTION_MOVE): 0:(542.6862,168.12233)
+:Sending Touch (ACTION_MOVE): 0:(554.6927,174.26192)
+:Sending Touch (ACTION_MOVE): 0:(560.02765,179.07727)
+:Sending Touch (ACTION_MOVE): 0:(566.0072,180.73395)
+:Sending Touch (ACTION_UP): 0:(579.2753,183.1272)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(713.0,67.0)
+:Sending Touch (ACTION_UP): 0:(709.9532,70.80956)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 41    // KEYCODE_M
+:Sending Key (ACTION_UP): 41    // KEYCODE_M
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(963.0,1742.0)
+:Sending Touch (ACTION_UP): 0:(962.6474,1737.2545)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,2021.0)
+:Sending Touch (ACTION_UP): 0:(339.18277,2022.7756)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(176.0,684.0)
+:Sending Touch (ACTION_UP): 0:(183.01347,683.6318)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(364.0,1066.0)
+:Sending Touch (ACTION_UP): 0:(372.74323,1066.1025)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(792.0,529.0)
+:Sending Touch (ACTION_UP): 0:(805.96436,529.0991)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1424.0)
+:Sending Touch (ACTION_UP): 0:(1039.2982,1421.476)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,1837.0)
+:Sending Touch (ACTION_UP): 0:(169.45168,1829.3971)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 245    // KEYCODE_TV_INPUT_HDMI_3
+:Sending Key (ACTION_UP): 245    // KEYCODE_TV_INPUT_HDMI_3
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1062.0,1055.0)
+:Sending Touch (ACTION_UP): 0:(1050.3217,1058.8464)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(51.0,401.0)
+:Sending Touch (ACTION_UP): 0:(68.38743,390.7859)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(707.0,1954.0)
+:Sending Touch (ACTION_UP): 0:(721.3589,1969.036)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(971.0,1531.0)
+:Sending Touch (ACTION_UP): 0:(989.07764,1543.2366)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(875.0,322.0)
+:Sending Touch (ACTION_UP): 0:(877.5468,329.1662)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(75.0,1720.0)
+:Sending Touch (ACTION_UP): 0:(75.60807,1704.645)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(255.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(247.26505,1170.2639)
+//[calendar_time:2023-04-17 23:34:41.168  system_uptime:32100869]
+// Sending event #300
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:34:42.176  system_uptime:32101878]
+// Sending event #300
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(635.0,992.0)
+:Sending Touch (ACTION_UP): 0:(644.4066,978.91943)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 16    // KEYCODE_9
+:Sending Key (ACTION_UP): 16    // KEYCODE_9
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(556.0,1007.0)
+:Sending Touch (ACTION_UP): 0:(555.32556,1007.23566)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(434.0,952.0)
+:Sending Touch (ACTION_UP): 0:(434.26718,946.70557)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(982.0,139.0)
+:Sending Touch (ACTION_UP): 0:(981.27655,128.41963)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(27.0,1901.0)
+:Sending Touch (ACTION_UP): 0:(39.28868,1896.7646)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(319.0,1428.0)
+:Sending Touch (ACTION_UP): 0:(315.4337,1441.7944)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(358.0,1451.0)
+:Sending Touch (ACTION_UP): 0:(367.43497,1461.0078)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(662.0,1196.0)
+:Sending Touch (ACTION_MOVE): 0:(667.5489,1184.9424)
+:Sending Touch (ACTION_MOVE): 0:(674.8167,1173.6443)
+:Sending Touch (ACTION_MOVE): 0:(682.0446,1167.1622)
+:Sending Touch (ACTION_MOVE): 0:(686.74817,1155.7797)
+:Sending Touch (ACTION_MOVE): 0:(692.4364,1143.0034)
+:Sending Touch (ACTION_MOVE): 0:(692.8572,1140.6572)
+:Sending Touch (ACTION_UP): 0:(701.3259,1135.4012)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(908.0,251.0)
+:Sending Touch (ACTION_MOVE): 0:(908.6504,246.34543)
+:Sending Touch (ACTION_MOVE): 0:(908.9031,243.99818)
+:Sending Touch (ACTION_MOVE): 0:(909.21216,235.55923)
+:Sending Touch (ACTION_MOVE): 0:(909.64087,226.7658)
+:Sending Touch (ACTION_MOVE): 0:(910.47955,225.52515)
+:Sending Touch (ACTION_MOVE): 0:(911.05664,222.59091)
+:Sending Touch (ACTION_MOVE): 0:(911.6442,218.9398)
+:Sending Touch (ACTION_MOVE): 0:(912.05676,217.74104)
+:Sending Touch (ACTION_MOVE): 0:(912.876,208.10641)
+:Sending Touch (ACTION_UP): 0:(913.6028,202.72685)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,246.0)
+:Sending Touch (ACTION_MOVE): 0:(514.62415,246.33012)
+:Sending Touch (ACTION_UP): 0:(516.00934,246.88069)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(622.0,1823.0)
+:Sending Touch (ACTION_UP): 0:(617.09766,1836.0172)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(368.0,918.0)
+:Sending Touch (ACTION_UP): 0:(387.54047,928.76843)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(362.0,462.0)
+:Sending Touch (ACTION_UP): 0:(356.24622,462.1015)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(298.0,826.0)
+:Sending Touch (ACTION_UP): 0:(304.86237,812.9459)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(218.0,1791.0)
+:Sending Touch (ACTION_UP): 0:(215.19876,1791.8788)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(757.0,630.0)
+:Sending Touch (ACTION_UP): 0:(762.23016,638.41455)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(246.0,990.0)
+:Sending Touch (ACTION_MOVE): 0:(246.9517,992.52295)
+:Sending Touch (ACTION_UP): 0:(247.6089,995.6987)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(575.0,710.0)
+:Sending Touch (ACTION_UP): 0:(572.9398,709.7764)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(490.0,2091.0)
+:Sending Touch (ACTION_UP): 0:(502.27405,2097.6538)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(736.0,538.0)
+:Sending Touch (ACTION_UP): 0:(729.08154,539.2697)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(386.0,780.0)
+:Sending Touch (ACTION_UP): 0:(376.99106,795.78064)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/com.yiyitech.module.login.page.LoginIdentifyCodeSecondActivity } in package com.yiyitech.powerex
+:Sending Touch (ACTION_DOWN): 0:(213.0,2249.0)
+:Sending Touch (ACTION_UP): 0:(219.8376,2250.3838)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(876.0,697.0)
+:Sending Touch (ACTION_MOVE): 0:(871.3718,701.0452)
+:Sending Touch (ACTION_MOVE): 0:(855.7948,701.9899)
+:Sending Touch (ACTION_MOVE): 0:(843.95886,705.6372)
+:Sending Touch (ACTION_MOVE): 0:(841.91223,708.2767)
+:Sending Touch (ACTION_MOVE): 0:(838.14386,709.0825)
+:Sending Touch (ACTION_MOVE): 0:(827.25836,712.6095)
+:Sending Touch (ACTION_UP): 0:(814.2603,712.81525)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(269.04095,1471.5819)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,472.0)
+:Sending Touch (ACTION_UP): 0:(959.64886,457.1858)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(250.0,687.0)
+//[calendar_time:2023-04-17 23:35:24.097  system_uptime:32143798]
+// Sending event #400
+:Sending Touch (ACTION_UP): 0:(240.25801,704.8662)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(680.0,1089.0)
+:Sending Touch (ACTION_UP): 0:(676.85144,1078.0529)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(521.0,329.0)
+:Sending Touch (ACTION_UP): 0:(518.1685,322.18195)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(88.0,853.0)
+:Sending Touch (ACTION_UP): 0:(75.28581,836.84595)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 172    // KEYCODE_GUIDE
+:Sending Key (ACTION_UP): 172    // KEYCODE_GUIDE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,403.0)
+:Sending Touch (ACTION_UP): 0:(392.82663,399.17578)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(765.0,759.0)
+:Sending Touch (ACTION_UP): 0:(763.45856,769.16113)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(363.0,1887.0)
+:Sending Touch (ACTION_UP): 0:(343.20898,1889.6191)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(465.0,1584.0)
+:Sending Touch (ACTION_UP): 0:(461.53326,1582.0872)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(428.0,1885.0)
+:Sending Touch (ACTION_MOVE): 0:(436.43115,1885.174)
+:Sending Touch (ACTION_MOVE): 0:(445.31235,1888.4695)
+:Sending Touch (ACTION_MOVE): 0:(447.10675,1892.0242)
+:Sending Touch (ACTION_MOVE): 0:(455.41324,1896.8716)
+:Sending Touch (ACTION_MOVE): 0:(462.039,1899.8657)
+:Sending Touch (ACTION_UP): 0:(464.07217,1901.0317)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(840.0,610.0)
+:Sending Touch (ACTION_MOVE): 0:(846.9171,609.9211)
+:Sending Touch (ACTION_MOVE): 0:(854.0804,609.91833)
+:Sending Touch (ACTION_MOVE): 0:(854.763,609.59827)
+:Sending Touch (ACTION_MOVE): 0:(859.7641,609.1935)
+:Sending Touch (ACTION_MOVE): 0:(864.3261,608.4792)
+:Sending Touch (ACTION_UP): 0:(868.0603,607.86816)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(131.0,1866.0)
+:Sending Touch (ACTION_UP): 0:(129.64159,1855.1854)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+:Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 208    // KEYCODE_CALENDAR
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.bbk.calendar/.MainActivity } in package com.bbk.calendar
+:Sending Key (ACTION_UP): 208    // KEYCODE_CALENDAR
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1027.0,1638.0)
+:Sending Touch (ACTION_UP): 0:(1024.5197,1651.4127)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,1686.0)
+:Sending Touch (ACTION_UP): 0:(160.15874,1690.6766)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,418.0)
+:Sending Touch (ACTION_UP): 0:(1015.77234,416.05035)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(909.0,1080.0)
+:Sending Touch (ACTION_MOVE): 0:(909.049,1080.3011)
+:Sending Touch (ACTION_MOVE): 0:(912.8799,1084.6627)
+:Sending Touch (ACTION_MOVE): 0:(914.34595,1086.6599)
+:Sending Touch (ACTION_MOVE): 0:(914.74567,1090.4272)
+:Sending Touch (ACTION_UP): 0:(926.07495,1092.3195)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 256    // KEYCODE_TV_CONTENTS_MENU
+:Sending Key (ACTION_UP): 256    // KEYCODE_TV_CONTENTS_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(878.0,109.0)
+:Sending Touch (ACTION_UP): 0:(872.3459,112.24736)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(440.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(445.30182,1131.1311)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+//[calendar_time:2023-04-17 23:36:13.300  system_uptime:32193006]
+// Sending event #500
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:36:14.312  system_uptime:32194013]
+// Sending event #500
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(678.0,1780.0)
+:Sending Touch (ACTION_UP): 0:(660.5584,1780.7704)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(19.0,1726.0)
+:Sending Touch (ACTION_MOVE): 0:(16.183859,1708.808)
+:Sending Touch (ACTION_MOVE): 0:(14.027111,1703.0536)
+:Sending Touch (ACTION_MOVE): 0:(11.944183,1691.9111)
+:Sending Touch (ACTION_MOVE): 0:(9.668737,1682.71)
+:Sending Touch (ACTION_MOVE): 0:(7.065423,1666.7842)
+:Sending Touch (ACTION_MOVE): 0:(1.960485,1662.104)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1657.8837)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1648.9932)
+:Sending Touch (ACTION_MOVE): 0:(0.0,1631.337)
+:Sending Touch (ACTION_UP): 0:(0.0,1628.4011)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(903.0,551.0)
+:Sending Touch (ACTION_UP): 0:(900.23773,550.39435)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(760.0,11.0)
+:Sending Touch (ACTION_MOVE): 0:(776.9095,17.19109)
+:Sending Touch (ACTION_MOVE): 0:(788.4241,22.04663)
+:Sending Touch (ACTION_MOVE): 0:(798.3621,31.441591)
+:Sending Touch (ACTION_MOVE): 0:(808.67645,44.777634)
+:Sending Touch (ACTION_MOVE): 0:(829.09796,50.06371)
+:Sending Touch (ACTION_MOVE): 0:(829.8887,63.424026)
+:Sending Touch (ACTION_MOVE): 0:(842.8349,71.701675)
+:Sending Touch (ACTION_UP): 0:(849.82666,77.59547)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(93.0,1447.0)
+:Sending Touch (ACTION_UP): 0:(92.94524,1431.417)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 208    // KEYCODE_CALENDAR
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.bbk.calendar/.MainActivity } in package com.bbk.calendar
+:Sending Key (ACTION_UP): 208    // KEYCODE_CALENDAR
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1006.0,1715.0)
+:Sending Touch (ACTION_UP): 0:(1023.676,1721.5278)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(267.0,85.0)
+:Sending Touch (ACTION_UP): 0:(258.8212,90.495445)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(689.0,1694.0)
+:Sending Touch (ACTION_UP): 0:(685.2171,1677.1289)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(757.0,1642.0)
+:Sending Touch (ACTION_MOVE): 0:(741.9595,1631.4097)
+:Sending Touch (ACTION_MOVE): 0:(733.308,1630.4476)
+:Sending Touch (ACTION_MOVE): 0:(712.7535,1618.999)
+:Sending Touch (ACTION_UP): 0:(692.96594,1615.6754)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(458.0,2108.0)
+:Sending Touch (ACTION_UP): 0:(459.12946,2126.7417)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(874.0,1866.0)
+:Sending Touch (ACTION_UP): 0:(862.3399,1854.9882)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(100.0,552.0)
+:Sending Touch (ACTION_UP): 0:(115.962585,545.4578)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(725.0,1938.0)
+:Sending Touch (ACTION_UP): 0:(738.09204,1932.4758)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(578.0,1830.0)
+:Sending Touch (ACTION_UP): 0:(573.284,1835.2848)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(258.0,1411.0)
+:Sending Touch (ACTION_UP): 0:(243.92131,1408.8667)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1024.0,1244.0)
+:Sending Touch (ACTION_MOVE): 0:(1019.39264,1249.9943)
+:Sending Touch (ACTION_MOVE): 0:(1007.0466,1257.9608)
+:Sending Touch (ACTION_MOVE): 0:(1006.47437,1264.8579)
+:Sending Touch (ACTION_MOVE): 0:(997.41925,1270.2365)
+:Sending Touch (ACTION_MOVE): 0:(991.04474,1284.2083)
+:Sending Touch (ACTION_MOVE): 0:(990.3512,1285.8785)
+:Sending Touch (ACTION_MOVE): 0:(987.45514,1299.8892)
+:Sending Touch (ACTION_UP): 0:(979.2414,1312.6268)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,1068.0)
+:Sending Touch (ACTION_UP): 0:(710.8602,1068.9243)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(280.0,1262.0)
+:Sending Touch (ACTION_MOVE): 0:(290.65652,1265.8188)
+:Sending Touch (ACTION_MOVE): 0:(300.9541,1265.9185)
+:Sending Touch (ACTION_MOVE): 0:(302.43964,1267.6063)
+:Sending Touch (ACTION_MOVE): 0:(313.02435,1269.5089)
+:Sending Touch (ACTION_MOVE): 0:(313.1157,1273.5034)
+:Sending Touch (ACTION_MOVE): 0:(314.56488,1277.4175)
+:Sending Touch (ACTION_MOVE): 0:(324.75565,1278.4177)
+:Sending Touch (ACTION_MOVE): 0:(333.96185,1282.9238)
+:Sending Touch (ACTION_MOVE): 0:(334.03406,1286.3649)
+:Sending Touch (ACTION_UP): 0:(344.89984,1286.7303)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(364.0,2061.0)
+:Sending Touch (ACTION_UP): 0:(367.2744,2060.6943)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(878.0,2257.0)
+:Sending Touch (ACTION_UP): 0:(880.8402,2258.4438)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(232.0,63.0)
+:Sending Touch (ACTION_UP): 0:(231.15701,45.66555)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(504.0,1488.0)
+:Sending Touch (ACTION_UP): 0:(502.90195,1486.8468)
+//[calendar_time:2023-04-17 23:36:49.052  system_uptime:32228753]
+// Sending event #600
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:36:50.055  system_uptime:32229756]
+// Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(782.0,1361.0)
+:Sending Touch (ACTION_UP): 0:(768.9712,1372.4131)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(232.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(247.90723,1098.0228)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 203    // KEYCODE_BUTTON_16
+:Sending Key (ACTION_UP): 203    // KEYCODE_BUTTON_16
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 131    // KEYCODE_F1
+:Sending Key (ACTION_UP): 131    // KEYCODE_F1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(434.0,2108.0)
+:Sending Touch (ACTION_UP): 0:(438.19348,2103.551)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1040.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(1039.0784,1107.7394)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 55    // KEYCODE_COMMA
+:Sending Key (ACTION_UP): 55    // KEYCODE_COMMA
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(456.0,1945.0)
+:Sending Touch (ACTION_UP): 0:(457.875,1936.93)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(601.0,1005.0)
+:Sending Touch (ACTION_UP): 0:(599.2589,1006.9732)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1050.0,186.0)
+:Sending Touch (ACTION_UP): 0:(1058.4579,182.70876)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(850.0,1282.0)
+:Sending Touch (ACTION_UP): 0:(854.43036,1282.3333)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yiyitech.powerex/com.yiyitech.module.webview.web.WebActivity } in package com.yiyitech.powerex
+:Sending Touch (ACTION_DOWN): 0:(1016.0,793.0)
+:Sending Touch (ACTION_UP): 0:(1024.7727,794.00916)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(812.0,1641.0)
+:Sending Touch (ACTION_UP): 0:(819.04944,1636.1316)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(260.0,1255.0)
+:Sending Touch (ACTION_UP): 0:(254.34537,1254.008)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(675.0,994.0)
+:Sending Touch (ACTION_UP): 0:(674.2251,994.44507)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1039.0,1593.0)
+:Sending Touch (ACTION_UP): 0:(1038.9133,1597.0775)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,1220.0)
+:Sending Touch (ACTION_UP): 0:(569.9432,1213.904)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(565.0,2226.0)
+:Sending Touch (ACTION_UP): 0:(571.6247,2218.2688)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 230    // KEYCODE_TV_DATA_SERVICE
+:Sending Key (ACTION_UP): 230    // KEYCODE_TV_DATA_SERVICE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(548.0,640.0)
+:Sending Touch (ACTION_UP): 0:(558.9027,643.30396)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(46.0,523.0)
+:Sending Touch (ACTION_UP): 0:(38.21195,523.16406)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(256.0,1583.0)
+:Sending Touch (ACTION_UP): 0:(250.25507,1599.1093)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(610.0,1553.0)
+:Sending Touch (ACTION_UP): 0:(623.6319,1548.9896)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(436.0,1569.0)
+:Sending Touch (ACTION_UP): 0:(421.8709,1573.587)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(629.0,1545.0)
+:Sending Touch (ACTION_MOVE): 0:(629.1721,1562.7656)
+:Sending Touch (ACTION_MOVE): 0:(629.34296,1567.567)
+:Sending Touch (ACTION_MOVE): 0:(629.57983,1571.7142)
+:Sending Touch (ACTION_UP): 0:(629.79175,1591.159)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(64.0,9.0)
+:Sending Touch (ACTION_UP): 0:(82.16838,6.9510064)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(875.0,2046.0)
+:Sending Touch (ACTION_MOVE): 0:(878.51685,2050.9639)
+:Sending Touch (ACTION_UP): 0:(882.66534,2051.0073)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(613.0,1540.0)
+:Sending Touch (ACTION_UP): 0:(610.0317,1528.5328)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(652.0,1702.0)
+:Sending Touch (ACTION_UP): 0:(652.5679,1708.7854)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(834.0,1347.0)
+:Sending Touch (ACTION_UP): 0:(833.9897,1344.58)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(256.0,73.0)
+:Sending Touch (ACTION_UP): 0:(255.91281,73.328514)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1063.0,1892.0)
+:Sending Touch (ACTION_UP): 0:(1054.2977,1891.8566)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(905.0,967.0)
+:Sending Touch (ACTION_UP): 0:(904.5374,948.02374)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 272    // KEYCODE_MEDIA_SKIP_FORWARD
+:Sending Key (ACTION_UP): 272    // KEYCODE_MEDIA_SKIP_FORWARD
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(554.0,1800.0)
+:Sending Touch (ACTION_UP): 0:(548.8151,1801.8728)
+//[calendar_time:2023-04-17 23:37:43.092  system_uptime:32282794]
+// Sending event #700
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:37:44.096  system_uptime:32283797]
+// Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(55.0,1378.0)
+:Sending Touch (ACTION_UP): 0:(77.95402,1382.6515)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(629.0,1637.0)
+:Sending Touch (ACTION_UP): 0:(626.2725,1634.5953)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,759.0)
+:Sending Touch (ACTION_UP): 0:(616.99414,759.7833)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(868.0,392.0)
+:Sending Touch (ACTION_UP): 0:(853.34,399.4138)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+:Sending Key (ACTION_UP): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(887.0,1271.0)
+:Sending Touch (ACTION_MOVE): 0:(890.799,1286.4305)
+:Sending Touch (ACTION_MOVE): 0:(892.42255,1288.0417)
+:Sending Touch (ACTION_MOVE): 0:(897.57355,1296.6888)
+:Sending Touch (ACTION_MOVE): 0:(908.144,1299.9233)
+:Sending Touch (ACTION_MOVE): 0:(925.3839,1306.2653)
+:Sending Touch (ACTION_MOVE): 0:(942.0225,1308.2285)
+:Sending Touch (ACTION_MOVE): 0:(957.5913,1325.3601)
+:Sending Touch (ACTION_MOVE): 0:(961.4558,1328.971)
+:Sending Touch (ACTION_MOVE): 0:(962.1904,1333.479)
+:Sending Touch (ACTION_UP): 0:(973.60077,1344.1587)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 197    // KEYCODE_BUTTON_10
+:Sending Key (ACTION_UP): 197    // KEYCODE_BUTTON_10
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 183    // KEYCODE_PROG_RED
+:Sending Key (ACTION_UP): 183    // KEYCODE_PROG_RED
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1071.0,280.0)
+:Sending Touch (ACTION_UP): 0:(1070.3558,282.808)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(700.0,954.0)
+:Sending Touch (ACTION_UP): 0:(695.8861,948.62476)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 83    // KEYCODE_NOTIFICATION
+:Sending Key (ACTION_UP): 83    // KEYCODE_NOTIFICATION
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(305.0,664.0)
+:Sending Touch (ACTION_UP): 0:(306.365,665.88025)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(665.0,2023.0)
+:Sending Touch (ACTION_MOVE): 0:(667.69885,2021.2771)
+:Sending Touch (ACTION_MOVE): 0:(671.2342,2010.8262)
+:Sending Touch (ACTION_MOVE): 0:(671.73944,2002.031)
+:Sending Touch (ACTION_MOVE): 0:(677.08405,2001.6569)
+:Sending Touch (ACTION_MOVE): 0:(678.01025,1999.4879)
+:Sending Touch (ACTION_MOVE): 0:(681.86,1991.349)
+:Sending Touch (ACTION_MOVE): 0:(686.9024,1984.0186)
+:Sending Touch (ACTION_UP): 0:(689.9057,1970.4425)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(844.0,131.0)
+:Sending Touch (ACTION_UP): 0:(852.0952,132.85265)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(887.0,1855.0)
+:Sending Touch (ACTION_UP): 0:(886.5545,1864.6355)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(821.0,1264.0)
+:Sending Touch (ACTION_MOVE): 0:(810.9707,1263.8275)
+:Sending Touch (ACTION_MOVE): 0:(799.8056,1263.6466)
+:Sending Touch (ACTION_MOVE): 0:(792.20355,1263.5516)
+:Sending Touch (ACTION_MOVE): 0:(784.6624,1263.2506)
+:Sending Touch (ACTION_MOVE): 0:(774.1493,1262.8926)
+:Sending Touch (ACTION_MOVE): 0:(771.4832,1262.8405)
+:Sending Touch (ACTION_UP): 0:(768.24554,1262.6904)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 101    // KEYCODE_BUTTON_Z
+:Sending Key (ACTION_UP): 101    // KEYCODE_BUTTON_Z
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 103    // KEYCODE_BUTTON_R1
+:Sending Key (ACTION_UP): 103    // KEYCODE_BUTTON_R1
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(852.0,1878.0)
+:Sending Touch (ACTION_UP): 0:(830.0786,1876.3109)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(192.0,1249.0)
+:Sending Touch (ACTION_UP): 0:(167.85162,1249.623)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(135.0,1326.0)
+:Sending Touch (ACTION_UP): 0:(134.02933,1326.1239)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(514.0,56.0)
+:Sending Touch (ACTION_UP): 0:(502.75583,47.58131)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 177    // KEYCODE_TV_POWER
+:Sending Key (ACTION_UP): 177    // KEYCODE_TV_POWER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(177.0,197.0)
+:Sending Touch (ACTION_UP): 0:(198.68051,200.30621)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(744.0,449.0)
+:Sending Touch (ACTION_UP): 0:(731.6441,448.33267)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+//[calendar_time:2023-04-17 23:38:31.193  system_uptime:32330894]
+// Sending event #800
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(391.0,610.0)
+:Sending Touch (ACTION_UP): 0:(392.92923,614.68274)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(334.0,380.0)
+:Sending Touch (ACTION_UP): 0:(342.47534,385.36273)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(580.0,2147.0)
+:Sending Touch (ACTION_MOVE): 0:(570.01544,2145.94)
+:Sending Touch (ACTION_MOVE): 0:(547.6701,2144.7224)
+:Sending Touch (ACTION_MOVE): 0:(538.99603,2143.5518)
+:Sending Touch (ACTION_MOVE): 0:(528.14514,2135.0928)
+:Sending Touch (ACTION_MOVE): 0:(507.52582,2119.6658)
+:Sending Touch (ACTION_MOVE): 0:(502.11475,2106.8855)
+:Sending Touch (ACTION_MOVE): 0:(488.43167,2106.157)
+:Sending Touch (ACTION_MOVE): 0:(482.99243,2090.3027)
+:Sending Touch (ACTION_MOVE): 0:(471.4466,2086.3745)
+:Sending Touch (ACTION_UP): 0:(466.92343,2070.2969)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(660.0,1722.0)
+:Sending Touch (ACTION_UP): 0:(649.0094,1713.9294)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(646.0,508.0)
+:Sending Touch (ACTION_UP): 0:(660.8021,494.8132)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 58    // KEYCODE_ALT_RIGHT
+:Sending Key (ACTION_UP): 58    // KEYCODE_ALT_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(746.0,2181.0)
+:Sending Touch (ACTION_UP): 0:(745.74744,2177.462)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(510.0,1314.0)
+:Sending Touch (ACTION_UP): 0:(509.5953,1311.2025)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(363.0,402.0)
+:Sending Touch (ACTION_MOVE): 0:(366.06677,392.3517)
+:Sending Touch (ACTION_MOVE): 0:(367.72757,381.06097)
+:Sending Touch (ACTION_MOVE): 0:(367.74414,380.13354)
+:Sending Touch (ACTION_UP): 0:(375.55676,367.22928)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(861.0,1929.0)
+:Sending Touch (ACTION_UP): 0:(867.35156,1931.8821)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 196    // KEYCODE_BUTTON_9
+:Sending Key (ACTION_UP): 196    // KEYCODE_BUTTON_9
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(590.0,272.0)
+:Sending Touch (ACTION_UP): 0:(593.2275,261.87756)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1076.0,1667.0)
+:Sending Touch (ACTION_UP): 0:(1074.7035,1670.6138)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(840.0,1070.0)
+:Sending Touch (ACTION_UP): 0:(836.0848,1050.7393)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(379.0,1226.0)
+:Sending Touch (ACTION_UP): 0:(376.50967,1226.0961)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 252    // KEYCODE_TV_AUDIO_DESCRIPTION
+:Sending Key (ACTION_UP): 252    // KEYCODE_TV_AUDIO_DESCRIPTION
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 18    // KEYCODE_POUND
+:Sending Key (ACTION_UP): 18    // KEYCODE_POUND
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(673.0,244.0)
+:Sending Touch (ACTION_UP): 0:(670.9966,254.94147)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(775.0,1736.0)
+:Sending Touch (ACTION_UP): 0:(787.2849,1741.6118)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 266    // KEYCODE_STEM_2
+:Sending Key (ACTION_UP): 266    // KEYCODE_STEM_2
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(223.0,1546.0)
+:Sending Touch (ACTION_UP): 0:(244.90149,1537.4155)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(782.0,1554.0)
+:Sending Touch (ACTION_UP): 0:(773.5027,1551.1104)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(224.0,1473.0)
+:Sending Touch (ACTION_UP): 0:(231.06523,1471.717)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(163.0,1067.0)
+:Sending Touch (ACTION_UP): 0:(162.07779,1070.4276)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(236.0,143.0)
+:Sending Touch (ACTION_UP): 0:(227.80191,146.32642)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(480.0,930.0)
+:Sending Touch (ACTION_UP): 0:(475.37964,929.9067)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(488.0,1310.0)
+:Sending Touch (ACTION_UP): 0:(480.73392,1296.3909)
+//[calendar_time:2023-04-17 23:39:19.220  system_uptime:32378921]
+// Sending event #900
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:39:20.222  system_uptime:32379923]
+// Sending event #900
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+// activityResuming(com.yiyitech.powerex)
+:Sending Touch (ACTION_DOWN): 0:(757.0,178.0)
+:Sending Touch (ACTION_UP): 0:(757.1414,182.58232)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(238.0,1859.0)
+:Sending Touch (ACTION_UP): 0:(236.5614,1859.0309)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(637.0,1839.0)
+:Sending Touch (ACTION_UP): 0:(637.03595,1842.5073)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1056.0,1861.0)
+:Sending Touch (ACTION_UP): 0:(1074.0354,1863.951)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(236.0,797.0)
+:Sending Touch (ACTION_UP): 0:(233.98395,790.49854)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(407.0,1332.0)
+:Sending Touch (ACTION_UP): 0:(407.86514,1321.4945)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(851.0,1242.0)
+:Sending Touch (ACTION_UP): 0:(838.14624,1238.6107)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(995.0,1308.0)
+:Sending Touch (ACTION_UP): 0:(987.89624,1300.7684)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1023.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(1020.81256,1034.6976)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(963.0,1731.0)
+:Sending Touch (ACTION_UP): 0:(962.64966,1726.0626)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 133    // KEYCODE_F3
+:Sending Key (ACTION_UP): 133    // KEYCODE_F3
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 11    // KEYCODE_4
+:Sending Key (ACTION_UP): 11    // KEYCODE_4
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(740.0,2099.0)
+:Sending Touch (ACTION_MOVE): 0:(754.5105,2098.6135)
+:Sending Touch (ACTION_UP): 0:(765.13965,2097.0186)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(896.0,2198.0)
+:Sending Touch (ACTION_UP): 0:(893.7092,2199.4697)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,2202.0)
+:Sending Touch (ACTION_UP): 0:(736.59784,2206.2395)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1075.0,333.0)
+:Sending Touch (ACTION_UP): 0:(1076.4283,338.1526)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(639.0,507.0)
+:Sending Touch (ACTION_UP): 0:(638.36914,503.7476)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(519.0,193.0)
+:Sending Touch (ACTION_UP): 0:(516.6918,203.64925)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(199.0,1832.0)
+:Sending Touch (ACTION_UP): 0:(188.1239,1825.2797)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(886.0,42.0)
+:Sending Touch (ACTION_MOVE): 0:(885.3189,59.89508)
+:Sending Touch (ACTION_MOVE): 0:(884.36896,78.39506)
+:Sending Touch (ACTION_MOVE): 0:(884.18274,89.88335)
+:Sending Touch (ACTION_MOVE): 0:(883.0435,99.65315)
+:Sending Touch (ACTION_MOVE): 0:(882.90967,100.11908)
+:Sending Touch (ACTION_MOVE): 0:(882.0033,112.322784)
+:Sending Touch (ACTION_MOVE): 0:(880.8971,125.28065)
+:Sending Touch (ACTION_UP): 0:(880.342,133.07927)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(6.0,2138.0)
+:Sending Touch (ACTION_UP): 0:(16.779644,2132.028)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(472.0,827.0)
+:Sending Touch (ACTION_UP): 0:(472.3833,832.2698)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(145.0,2180.0)
+:Sending Touch (ACTION_UP): 0:(140.72893,2157.9106)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(269.0,1895.0)
+:Sending Touch (ACTION_MOVE): 0:(269.2744,1884.4993)
+:Sending Touch (ACTION_MOVE): 0:(270.6587,1882.0701)
+:Sending Touch (ACTION_MOVE): 0:(273.77084,1874.5015)
+:Sending Touch (ACTION_MOVE): 0:(276.31616,1868.4143)
+:Sending Touch (ACTION_MOVE): 0:(278.4052,1862.8983)
+:Sending Touch (ACTION_MOVE): 0:(281.54245,1851.7773)
+:Sending Touch (ACTION_UP): 0:(282.85797,1851.5347)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(251.0,304.0)
+:Sending Touch (ACTION_UP): 0:(248.88817,284.92688)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 176    // KEYCODE_SETTINGS
+//[calendar_time:2023-04-17 23:40:07.365  system_uptime:32427066]
+// Sending event #1000
+:Sending Key (ACTION_UP): 176    // KEYCODE_SETTINGS
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(483.0,1689.0)
+:Sending Touch (ACTION_UP): 0:(484.28412,1691.0568)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(291.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(280.68298,1252.9722)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(79.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(76.79181,1597.0475)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(298.0,2147.0)
+:Sending Touch (ACTION_UP): 0:(295.27774,2146.6382)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(777.0,1550.0)
+:Sending Touch (ACTION_MOVE): 0:(766.6337,1545.5697)
+:Sending Touch (ACTION_MOVE): 0:(746.07715,1530.8984)
+:Sending Touch (ACTION_MOVE): 0:(743.11316,1521.873)
+:Sending Touch (ACTION_MOVE): 0:(739.8523,1516.2122)
+:Sending Touch (ACTION_MOVE): 0:(737.9606,1512.2853)
+:Sending Touch (ACTION_UP): 0:(717.25244,1509.6666)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(950.0,251.0)
+:Sending Touch (ACTION_UP): 0:(944.06506,249.23283)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(399.0,129.0)
+:Sending Touch (ACTION_UP): 0:(397.4403,144.88298)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 188    // KEYCODE_BUTTON_1
+:Sending Key (ACTION_UP): 188    // KEYCODE_BUTTON_1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(592.0,498.0)
+:Sending Touch (ACTION_UP): 0:(591.19586,499.27585)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 109    // KEYCODE_BUTTON_SELECT
+:Sending Key (ACTION_UP): 109    // KEYCODE_BUTTON_SELECT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(326.0,33.0)
+:Sending Touch (ACTION_UP): 0:(336.10107,48.798817)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(730.0,2187.0)
+:Sending Touch (ACTION_UP): 0:(716.9979,2190.614)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(986.0,1590.0)
+:Sending Touch (ACTION_UP): 0:(962.35016,1590.0248)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(668.0,1061.0)
+:Sending Touch (ACTION_UP): 0:(667.0956,1054.5654)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,761.0)
+:Sending Touch (ACTION_UP): 0:(999.31433,758.4905)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(282.0,952.0)
+:Sending Touch (ACTION_UP): 0:(275.0763,955.67615)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(624.0,1287.0)
+:Sending Touch (ACTION_UP): 0:(609.9313,1290.9508)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(899.0,853.0)
+:Sending Touch (ACTION_UP): 0:(903.6051,846.9998)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 231    // KEYCODE_VOICE_ASSIST
+:Sending Key (ACTION_UP): 231    // KEYCODE_VOICE_ASSIST
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(292.0,1573.0)
+:Sending Touch (ACTION_UP): 0:(276.71912,1575.0626)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 247    // KEYCODE_TV_INPUT_COMPOSITE_1
+:Sending Key (ACTION_UP): 247    // KEYCODE_TV_INPUT_COMPOSITE_1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(295.0,761.0)
+:Sending Touch (ACTION_UP): 0:(294.82748,744.8424)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(36.0,341.0)
+:Sending Touch (ACTION_MOVE): 0:(41.700756,340.5243)
+:Sending Touch (ACTION_MOVE): 0:(51.93817,340.10406)
+:Sending Touch (ACTION_MOVE): 0:(62.86504,339.59412)
+:Sending Touch (ACTION_MOVE): 0:(73.31284,338.82147)
+:Sending Touch (ACTION_MOVE): 0:(80.69314,338.56125)
+:Sending Touch (ACTION_UP): 0:(83.29902,337.76935)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(273.0,279.0)
+:Sending Touch (ACTION_UP): 0:(277.82867,278.94296)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(157.0,1304.0)
+:Sending Touch (ACTION_MOVE): 0:(154.96889,1303.6602)
+:Sending Touch (ACTION_MOVE): 0:(153.53348,1303.413)
+:Sending Touch (ACTION_MOVE): 0:(148.87265,1301.7039)
+:Sending Touch (ACTION_MOVE): 0:(141.5433,1299.8391)
+:Sending Touch (ACTION_MOVE): 0:(141.1086,1298.4948)
+:Sending Touch (ACTION_MOVE): 0:(136.38895,1298.0625)
+:Sending Touch (ACTION_UP): 0:(130.65971,1297.4436)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 106    // KEYCODE_BUTTON_THUMBL
+:Sending Key (ACTION_UP): 106    // KEYCODE_BUTTON_THUMBL
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(820.0,161.0)
+:Sending Touch (ACTION_UP): 0:(820.64703,153.71077)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(761.0,1978.0)
+:Sending Touch (ACTION_UP): 0:(756.6642,1973.79)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,1589.0)
+:Sending Touch (ACTION_UP): 0:(153.52193,1589.7161)
+//[calendar_time:2023-04-17 23:40:55.445  system_uptime:32475146]
+// Sending event #1100
+Sleeping for 1000 milliseconds
+//[calendar_time:2023-04-17 23:40:56.448  system_uptime:32476149]
+// Sending event #1100
+:Sending Key (ACTION_DOWN): 239    // KEYCODE_TV_SATELLITE_CS
+:Sending Key (ACTION_UP): 239    // KEYCODE_TV_SATELLITE_CS
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(450.0,2031.0)
+:Sending Touch (ACTION_UP): 0:(440.49808,2019.1392)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 67    // KEYCODE_DEL
+:Sending Key (ACTION_UP): 67    // KEYCODE_DEL
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 180    // KEYCODE_STB_INPUT
+:Sending Key (ACTION_UP): 180    // KEYCODE_STB_INPUT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(858.0,1246.0)
+:Sending Touch (ACTION_UP): 0:(860.9116,1245.9552)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 203    // KEYCODE_BUTTON_16
+:Sending Key (ACTION_UP): 203    // KEYCODE_BUTTON_16
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1049.0,2227.0)
+:Sending Touch (ACTION_UP): 0:(1043.4617,2238.4373)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(557.0,795.0)
+:Sending Touch (ACTION_UP): 0:(549.99835,788.5212)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(73.0,1685.0)
+:Sending Touch (ACTION_UP): 0:(74.41585,1689.5745)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,1127.0)
+:Sending Touch (ACTION_UP): 0:(173.44983,1113.4637)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(469.0,1765.0)
+:Sending Touch (ACTION_UP): 0:(458.5484,1752.5565)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 280    // KEYCODE_SYSTEM_NAVIGATION_UP
+:Sending Key (ACTION_UP): 280    // KEYCODE_SYSTEM_NAVIGATION_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(106.0,2170.0)
+:Sending Touch (ACTION_MOVE): 0:(93.01781,2173.868)
+:Sending Touch (ACTION_MOVE): 0:(81.95672,2177.4863)
+:Sending Touch (ACTION_MOVE): 0:(78.50107,2179.0378)
+:Sending Touch (ACTION_MOVE): 0:(76.240776,2182.857)
+:Sending Touch (ACTION_MOVE): 0:(72.05412,2188.3801)
+:Sending Touch (ACTION_MOVE): 0:(71.413246,2192.356)
+:Sending Touch (ACTION_UP): 0:(60.66812,2197.1294)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(282.0,104.0)
+:Sending Touch (ACTION_UP): 0:(289.69873,118.68879)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(255.0,683.0)
+:Sending Touch (ACTION_UP): 0:(256.22684,685.20233)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(53.0,1386.0)
+:Sending Touch (ACTION_UP): 0:(44.050926,1385.8237)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(500.0,146.0)
+:Sending Touch (ACTION_UP): 0:(511.255,144.8823)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(29.0,1522.0)
+:Sending Touch (ACTION_UP): 0:(44.157513,1525.4734)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,1820.0)
+:Sending Touch (ACTION_UP): 0:(369.69592,1822.428)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 127    // KEYCODE_MEDIA_PAUSE
+:Sending Key (ACTION_UP): 127    // KEYCODE_MEDIA_PAUSE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(125.0,1534.0)
+:Sending Touch (ACTION_UP): 0:(116.46859,1535.9895)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(909.0,1280.0)
+:Sending Touch (ACTION_UP): 0:(916.04834,1277.6367)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(585.0,619.0)
+:Sending Touch (ACTION_UP): 0:(589.81323,618.51776)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,586.0)
+:Sending Touch (ACTION_UP): 0:(267.0524,583.097)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(30.0,2054.0)
+:Sending Touch (ACTION_UP): 0:(16.826006,2073.1304)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,2230.0)
+:Sending Touch (ACTION_UP): 0:(599.44763,2247.5454)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(628.0,85.0)
+:Sending Touch (ACTION_UP): 0:(630.9643,79.962456)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(429.0,1906.0)
+//[calendar_time:2023-04-17 23:41:47.591  system_uptime:32527292]
+// Sending event #1200
+:Sending Touch (ACTION_UP): 0:(436.7012,1905.7789)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 152    // KEYCODE_NUMPAD_8
+:Sending Key (ACTION_UP): 152    // KEYCODE_NUMPAD_8
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(770.0,1811.0)
+:Sending Touch (ACTION_UP): 0:(776.6244,1813.3491)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(193.0,1704.0)
+:Sending Touch (ACTION_UP): 0:(202.10959,1703.4614)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1041.0,571.0)
+:Sending Touch (ACTION_MOVE): 0:(1048.1273,575.8071)
+:Sending Touch (ACTION_MOVE): 0:(1048.8625,582.0204)
+:Sending Touch (ACTION_MOVE): 0:(1068.0416,583.6193)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,585.8699)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,595.71704)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,596.92017)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,603.6663)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,604.77704)
+:Sending Touch (ACTION_MOVE): 0:(1080.0,609.8855)
+:Sending Touch (ACTION_UP): 0:(1080.0,617.4878)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(349.0,1486.0)
+:Sending Touch (ACTION_UP): 0:(333.71603,1484.7911)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+// activityResuming(com.bbk.launcher2)
+// Rejecting resume of package com.bbk.launcher2
+:Sending Touch (ACTION_DOWN): 0:(702.0,454.0)
+:Sending Touch (ACTION_UP): 0:(695.6986,454.96573)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sammbo.im/com.movitech.eop.login.Splash2Activity } in package com.sammbo.im
+:Sending Touch (ACTION_DOWN): 0:(730.0,927.0)
+:Sending Touch (ACTION_MOVE): 0:(733.79694,920.3659)
+:Sending Touch (ACTION_MOVE): 0:(735.87024,913.6583)
+:Sending Touch (ACTION_MOVE): 0:(738.25134,901.5501)
+:Sending Touch (ACTION_MOVE): 0:(741.2976,894.1891)
+:Sending Touch (ACTION_MOVE): 0:(744.3898,892.77026)
+:Sending Touch (ACTION_MOVE): 0:(750.2132,872.11707)
+:Sending Touch (ACTION_MOVE): 0:(750.31476,862.1602)
+:Sending Touch (ACTION_MOVE): 0:(755.1932,856.5022)
+:Sending Touch (ACTION_UP): 0:(755.21344,847.32605)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity } in package com.taobao.idlefish
+:Sending Key (ACTION_DOWN): 34    // KEYCODE_F
+:Sending Key (ACTION_UP): 34    // KEYCODE_F
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(733.0,327.0)
+:Sending Touch (ACTION_UP): 0:(727.6538,332.41663)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity } in package com.tencent.wework
+:Sending Touch (ACTION_DOWN): 0:(682.0,719.0)
+:Sending Touch (ACTION_UP): 0:(694.2386,721.96985)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity } in package com.taobao.idlefish
+:Sending Touch (ACTION_DOWN): 0:(465.0,1334.0)
+:Sending Touch (ACTION_MOVE): 0:(464.40942,1330.0963)
+:Sending Touch (ACTION_UP): 0:(458.1867,1325.9006)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(85.0,2152.0)
+:Sending Touch (ACTION_UP): 0:(86.84258,2153.1338)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(153.0,962.0)
+:Sending Touch (ACTION_UP): 0:(142.37724,962.5156)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,2255.0)
+:Sending Touch (ACTION_UP): 0:(166.77138,2246.2878)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.dialer/.TwelveKeyDialer } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(609.0,1896.0)
+:Sending Touch (ACTION_UP): 0:(623.8645,1898.5825)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+// activityResuming(com.yiyitech.powerex)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(294.0,810.0)
+:Sending Touch (ACTION_MOVE): 0:(295.58646,801.5705)
+:Sending Touch (ACTION_MOVE): 0:(300.9961,794.9812)
+:Sending Touch (ACTION_MOVE): 0:(301.94815,786.158)
+:Sending Touch (ACTION_MOVE): 0:(302.23148,782.5315)
+:Sending Touch (ACTION_MOVE): 0:(306.5514,778.6642)
+:Sending Touch (ACTION_UP): 0:(308.00012,773.3518)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(288.0,194.0)
+:Sending Touch (ACTION_UP): 0:(284.7566,180.17754)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(119.0,312.0)
+:Sending Touch (ACTION_UP): 0:(118.97529,316.05832)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(142.0,1266.0)
+:Sending Touch (ACTION_MOVE): 0:(141.6148,1267.3329)
+:Sending Touch (ACTION_MOVE): 0:(141.46655,1269.8372)
+:Sending Touch (ACTION_MOVE): 0:(140.20383,1271.4297)
+:Sending Touch (ACTION_MOVE): 0:(140.07999,1273.3875)
+:Sending Touch (ACTION_MOVE): 0:(139.75728,1274.49)
+:Sending Touch (ACTION_MOVE): 0:(139.40869,1276.0391)
+:Sending Touch (ACTION_UP): 0:(138.91986,1279.2487)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(849.0,44.0)
+:Sending Touch (ACTION_UP): 0:(850.8968,38.27612)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(526.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(529.45245,1415.7848)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(147.0,1917.0)
+:Sending Touch (ACTION_UP): 0:(137.08405,1906.611)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(479.0,2108.0)
+:Sending Touch (ACTION_UP): 0:(468.95135,2113.5437)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(178.0,1721.0)
+:Sending Touch (ACTION_UP): 0:(173.11862,1721.48)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(780.0,421.0)
+:Sending Touch (ACTION_MOVE): 0:(777.6993,420.22256)
+:Sending Touch (ACTION_MOVE): 0:(777.15845,419.64822)
+:Sending Touch (ACTION_MOVE): 0:(775.6268,419.45654)
+:Sending Touch (ACTION_MOVE): 0:(772.50903,419.21472)
+:Sending Touch (ACTION_MOVE): 0:(772.3757,418.81262)
+//[calendar_time:2023-04-17 23:42:23.414  system_uptime:32563115]
+// Sending event #1300
+:Sending Touch (ACTION_MOVE): 0:(769.84033,418.03738)
+:Sending Touch (ACTION_MOVE): 0:(766.84033,417.2963)
+:Sending Touch (ACTION_MOVE): 0:(764.3467,416.79465)
+:Sending Touch (ACTION_MOVE): 0:(762.42145,416.09674)
+:Sending Touch (ACTION_UP): 0:(761.52386,415.51807)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,827.0)
+:Sending Touch (ACTION_UP): 0:(509.39554,831.37366)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(229.0,246.0)
+:Sending Touch (ACTION_UP): 0:(234.48232,234.48766)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yiyitech.powerex/.common.agreement.AgreementActivity } in package com.yiyitech.powerex
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yiyitech.powerex/.common.agreement.AgreementActivity;end
